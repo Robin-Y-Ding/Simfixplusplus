@@ -1,0 +1,49 @@
+#!/bin/bash
+
+BASE=$(pwd)
+D4J_H=$BASE/d4j/defects4j
+JVM=$BASE/jvm
+jdk=$JVM/jdk1.7.0_79
+
+if ! [ -x "$(command -v unzip)" ]; then
+    echo 'Error : unzip not found!'
+    echo 'Please install unzip first by typing: sudo apt-get install unzip'
+else
+    echo 'Find unzip:'$(command -v unzip)
+    echo '|-------------------------------------------------------|'
+    echo '|--------------------configure java---------------------|'
+    echo '|-------------------------------------------------------|'
+    if [ ! -d $jdk ]; then
+        cd $JVM && tar xvzf jdk-7u79-linux-x64.tar.gz
+    fi
+    export JAVA_HOME=$jdk
+    export PATH=$JAVA_HOME/bin:$PATH
+
+    echo '|-------------------------------------------------------|'
+    echo '|------------------configure defects4j------------------|'
+    echo '|--------Please ensure connecting to the internet-------|'
+    echo '|-------------------------------------------------------|'
+    cd $D4J_H && chmod 754 init.sh && ./init.sh
+
+    echo '|-------------------------------------------------------|'
+    echo '|--------------configure DEFECTS4J_HOME-----------------|'
+    echo '|-------------------------------------------------------|'
+    export DEFECTS4J_HOME=$D4J_H
+
+    echo ' '
+    echo 'set "DEFECTS4J_HOME":\n' $DEFECTS4J_HOME
+    echo ' '
+
+    echo '|-------------------------------------------------------|'
+    echo '|---------------configure execution PATH----------------|'
+    echo '|-------------------------------------------------------|'
+    export PATH=$D4J_H/framework/bin:$D4J_H/framework/bin/d4j:$D4J_H/major/bin:$PATH
+
+    echo ' '
+    echo 'set "PATH":\n' $PATH
+    echo ' '
+
+    echo 'Configuration done!'
+fi
+
+cd $BASE
