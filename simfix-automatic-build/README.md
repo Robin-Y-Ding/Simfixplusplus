@@ -15,6 +15,6 @@ source source_me
 ./run.sh
 
 
-***Note: If you see an error: Download math-5 Failed! Please check! You may not run: source source_me,
+***Note: If you see an error: "Download math-5 Failed! Please check! You may not run: source source_me",
 but you have already run source_me, then run this: "sudo apt-get install libdbi-perl" and retry.
 
