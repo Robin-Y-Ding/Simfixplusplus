@@ -350,3 +350,80 @@ Current failed test : org.jfree.chart.renderer.category.junit.AbstractCategoryIt
 Tue Apr 16 17:41:30 EDT 2019 org.jfree.chart.renderer.category.AbstractCategoryItemRenderer,1793
 =================================================
 Project : chart_1	start : 19/04/16 17:42
+=================================================
+Project : chart_1	start : 19/04/16 18:42
+Current failed test : org.jfree.chart.renderer.category.junit.AbstractCategoryItemRendererTests::test2947660 | 19/04/16 18:42
+Tue Apr 16 18:42:42 EDT 2019 org.jfree.chart.renderer.category.AbstractCategoryItemRenderer,1793
+=================================================
+Project : chart_1	start : 19/04/16 18:48
+Current failed test : org.jfree.chart.renderer.category.junit.AbstractCategoryItemRendererTests::test2947660 | 19/04/16 18:48
+Tue Apr 16 18:48:28 EDT 2019 org.jfree.chart.renderer.category.AbstractCategoryItemRenderer,1793
+Tue Apr 16 18:48:28 EDT 2019 org.jfree.chart.plot.CategoryPlot,1613
+Tue Apr 16 18:48:29 EDT 2019 Tue Apr 16 18:48:29 EDT 2019 : org.jfree.chart.plot.CategoryPlot,1614=>Find no block
+Tue Apr 16 18:48:29 EDT 2019 org.jfree.chart.plot.CategoryPlot,1665
+Tue Apr 16 18:48:29 EDT 2019 org.jfree.chart.plot.CategoryPlot,1667
+Tue Apr 16 18:48:29 EDT 2019 org.jfree.chart.plot.CategoryPlot,1672
+Tue Apr 16 18:48:30 EDT 2019 org.jfree.chart.plot.CategoryPlot,1673
+Tue Apr 16 18:48:30 EDT 2019 org.jfree.chart.plot.CategoryPlot,1674
+Tue Apr 16 18:48:30 EDT 2019 org.jfree.chart.plot.CategoryPlot,1675
+Tue Apr 16 18:48:30 EDT 2019 org.jfree.chart.plot.CategoryPlot,1678
+Tue Apr 16 18:48:30 EDT 2019 org.jfree.chart.plot.CategoryPlot,1679
+Tue Apr 16 18:48:30 EDT 2019 org.jfree.chart.plot.CategoryPlot,1681
+Tue Apr 16 18:48:31 EDT 2019 org.jfree.chart.plot.CategoryPlot,1682
+Tue Apr 16 18:48:31 EDT 2019 Tue Apr 16 18:48:31 EDT 2019 : org.jfree.chart.plot.CategoryPlot,1684=>Find no block
+Tue Apr 16 18:48:31 EDT 2019 org.jfree.chart.plot.CategoryPlot,567
+Tue Apr 16 18:48:33 EDT 2019 Tue Apr 16 18:48:33 EDT 2019 : org.jfree.chart.plot.CategoryPlot,568=>Find no block
+Tue Apr 16 18:48:33 EDT 2019 org.jfree.chart.plot.CategoryPlot,1339
+Tue Apr 16 18:48:33 EDT 2019 Tue Apr 16 18:48:33 EDT 2019 : org.jfree.chart.plot.CategoryPlot,1340=>Find no block
+Tue Apr 16 18:48:33 EDT 2019 org.jfree.chart.plot.CategoryPlot,1358
+Tue Apr 16 18:48:34 EDT 2019 org.jfree.chart.plot.CategoryPlot,1045
+Tue Apr 16 18:48:34 EDT 2019 org.jfree.chart.plot.CategoryPlot,1046
+Tue Apr 16 18:48:34 EDT 2019 org.jfree.chart.plot.CategoryPlot,1352
+=================================================
+Project : chart_1	start : 19/04/16 18:49
+Current failed test : org.jfree.chart.renderer.category.junit.AbstractCategoryItemRendererTests::test2947660 | 19/04/16 18:49
+Tue Apr 16 18:49:11 EDT 2019 org.jfree.chart.renderer.category.AbstractCategoryItemRenderer,1793
+Tue Apr 16 18:49:11 EDT 2019 org.jfree.chart.plot.CategoryPlot,1613
+Tue Apr 16 18:49:12 EDT 2019 Tue Apr 16 18:49:12 EDT 2019 : org.jfree.chart.plot.CategoryPlot,1614=>Find no block
+Tue Apr 16 18:49:12 EDT 2019 org.jfree.chart.plot.CategoryPlot,1665
+Tue Apr 16 18:49:12 EDT 2019 org.jfree.chart.plot.CategoryPlot,1667
+=================================================
+Project : chart_1	start : 19/04/16 18:49
+Current failed test : org.jfree.chart.renderer.category.junit.AbstractCategoryItemRendererTests::test2947660 | 19/04/16 18:49
+Tue Apr 16 18:49:59 EDT 2019 org.jfree.chart.renderer.category.AbstractCategoryItemRenderer,1793
+Tue Apr 16 18:50:00 EDT 2019 org.jfree.chart.plot.CategoryPlot,1613
+Tue Apr 16 18:50:00 EDT 2019 Tue Apr 16 18:50:00 EDT 2019 : org.jfree.chart.plot.CategoryPlot,1614=>Find no block
+Tue Apr 16 18:50:00 EDT 2019 org.jfree.chart.plot.CategoryPlot,1665
+Tue Apr 16 18:50:00 EDT 2019 org.jfree.chart.plot.CategoryPlot,1667
+Tue Apr 16 18:50:01 EDT 2019 org.jfree.chart.plot.CategoryPlot,1672
+=================================================
+Project : chart_1	start : 19/04/16 18:50
+Current failed test : org.jfree.chart.renderer.category.junit.AbstractCategoryItemRendererTests::test2947660 | 19/04/16 18:50
+Tue Apr 16 18:50:23 EDT 2019 org.jfree.chart.renderer.category.AbstractCategoryItemRenderer,1793
+=================================================
+Project : chart_1	start : 19/04/16 18:55
+Current failed test : org.jfree.chart.renderer.category.junit.AbstractCategoryItemRendererTests::test2947660 | 19/04/16 18:55
+Tue Apr 16 18:55:49 EDT 2019 org.jfree.chart.renderer.category.AbstractCategoryItemRenderer,1793
+=================================================
+Project : chart_1	start : 19/04/16 18:56
+Current failed test : org.jfree.chart.renderer.category.junit.AbstractCategoryItemRendererTests::test2947660 | 19/04/16 18:56
+Tue Apr 16 18:56:11 EDT 2019 org.jfree.chart.renderer.category.AbstractCategoryItemRenderer,1793
+Tue Apr 16 18:56:11 EDT 2019 org.jfree.chart.plot.CategoryPlot,1613
+Tue Apr 16 18:56:12 EDT 2019 Tue Apr 16 18:56:12 EDT 2019 : org.jfree.chart.plot.CategoryPlot,1614=>Find no block
+Tue Apr 16 18:56:12 EDT 2019 org.jfree.chart.plot.CategoryPlot,1665
+Tue Apr 16 18:56:12 EDT 2019 org.jfree.chart.plot.CategoryPlot,1667
+Tue Apr 16 18:56:12 EDT 2019 org.jfree.chart.plot.CategoryPlot,1672
+Tue Apr 16 18:56:13 EDT 2019 org.jfree.chart.plot.CategoryPlot,1673
+Tue Apr 16 18:56:13 EDT 2019 org.jfree.chart.plot.CategoryPlot,1674
+=================================================
+Project : chart_1	start : 19/04/16 19:01
+Current failed test : org.jfree.chart.renderer.category.junit.AbstractCategoryItemRendererTests::test2947660 | 19/04/16 19:01
+Tue Apr 16 19:01:46 EDT 2019 org.jfree.chart.renderer.category.AbstractCategoryItemRenderer,1793
+Tue Apr 16 19:01:47 EDT 2019 org.jfree.chart.plot.CategoryPlot,1613
+Tue Apr 16 19:01:47 EDT 2019 Tue Apr 16 19:01:47 EDT 2019 : org.jfree.chart.plot.CategoryPlot,1614=>Find no block
+Tue Apr 16 19:01:47 EDT 2019 org.jfree.chart.plot.CategoryPlot,1665
+Tue Apr 16 19:01:47 EDT 2019 org.jfree.chart.plot.CategoryPlot,1667
+Tue Apr 16 19:01:48 EDT 2019 org.jfree.chart.plot.CategoryPlot,1672
+Tue Apr 16 19:01:48 EDT 2019 org.jfree.chart.plot.CategoryPlot,1673
+Tue Apr 16 19:01:48 EDT 2019 org.jfree.chart.plot.CategoryPlot,1674
+Tue Apr 16 19:01:48 EDT 2019 org.jfree.chart.plot.CategoryPlot,1675
