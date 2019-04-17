@@ -1,3 +1,0 @@
-org/apache/commons/math/complex/Complex.java#153#        if (isNaN || rhs.isNaN) {
-org/apache/commons/math/complex/Complex.java#154#            return NaN;
-org/apache/commons/math/complex/Complex.java#155#        }

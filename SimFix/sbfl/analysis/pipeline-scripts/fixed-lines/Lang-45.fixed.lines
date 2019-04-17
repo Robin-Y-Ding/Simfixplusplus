@@ -1,3 +1,0 @@
-org/apache/commons/lang/WordUtils.java#616#        if (lower > str.length()) {
-org/apache/commons/lang/WordUtils.java#617#            lower = str.length();    
-org/apache/commons/lang/WordUtils.java#618#        }

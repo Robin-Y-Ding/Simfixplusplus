@@ -1,2 +1,0 @@
-com/google/javascript/jscomp/PeepholeOptimizationsPass.java#126#        Node next = c.getNext();
-com/google/javascript/jscomp/PeepholeOptimizationsPass.java#128#FIX_OF_OMISSION

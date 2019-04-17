@@ -1,5 +1,0 @@
-{
-  "family": ["sbfl"],
-  "formula": ["dstar2"],
-  "scoring_scheme": ["first", "last", "mean", "median"]
-}

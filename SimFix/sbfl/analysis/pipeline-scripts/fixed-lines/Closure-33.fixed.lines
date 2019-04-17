@@ -1,3 +1,0 @@
-com/google/javascript/rhino/jstype/PrototypeObjectType.java#557#    if (hasReferenceName()) {
-com/google/javascript/rhino/jstype/PrototypeObjectType.java#558#      return;
-com/google/javascript/rhino/jstype/PrototypeObjectType.java#559#    }

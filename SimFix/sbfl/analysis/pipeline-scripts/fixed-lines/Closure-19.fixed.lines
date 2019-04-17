@@ -1,2 +1,0 @@
-com/google/javascript/jscomp/type/ChainableReverseAbstractInterpreter.java#172#      case Token.THIS:
-com/google/javascript/jscomp/type/ChainableReverseAbstractInterpreter.java#174#        break;

@@ -1,3 +1,0 @@
-com/google/javascript/jscomp/RemoveUnusedVars.java#379#    if (!removeGlobals) {
-com/google/javascript/jscomp/RemoveUnusedVars.java#380#      return;
-com/google/javascript/jscomp/RemoveUnusedVars.java#381#    }

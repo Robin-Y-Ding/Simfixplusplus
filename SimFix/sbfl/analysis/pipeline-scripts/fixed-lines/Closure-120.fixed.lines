@@ -1,3 +1,0 @@
-com/google/javascript/jscomp/ReferenceCollectingCallback.java#431#          if (ref.getSymbol().getScope() != ref.scope) {
-com/google/javascript/jscomp/ReferenceCollectingCallback.java#432#            return false;
-com/google/javascript/jscomp/ReferenceCollectingCallback.java#433#          }

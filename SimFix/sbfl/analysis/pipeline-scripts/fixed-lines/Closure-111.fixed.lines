@@ -1,2 +1,0 @@
-com/google/javascript/jscomp/type/ClosureReverseAbstractInterpreter.java#54#          return topType.isAllType() ?
-com/google/javascript/jscomp/type/ClosureReverseAbstractInterpreter.java#55#              getNativeType(ARRAY_TYPE) : topType;

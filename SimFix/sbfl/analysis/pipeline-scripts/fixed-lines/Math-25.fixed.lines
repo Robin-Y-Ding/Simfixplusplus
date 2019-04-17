@@ -1,3 +1,0 @@
-org/apache/commons/math3/optimization/fitting/HarmonicFitter.java#323#                if (c2 == 0) {
-org/apache/commons/math3/optimization/fitting/HarmonicFitter.java#326#                    throw new MathIllegalStateException(LocalizedFormats.ZERO_DENOMINATOR);
-org/apache/commons/math3/optimization/fitting/HarmonicFitter.java#327#                }

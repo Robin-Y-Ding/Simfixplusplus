@@ -1,3 +1,0 @@
-com/google/javascript/jscomp/PeepholeSubstituteAlternateSyntax.java#782#              !mayEffectMutableState(lhs) &&
-com/google/javascript/jscomp/PeepholeSubstituteAlternateSyntax.java#783#              (!mayHaveSideEffects(cond) ||
-com/google/javascript/jscomp/PeepholeSubstituteAlternateSyntax.java#784#                  (thenOp.isAssign() && thenOp.getFirstChild().isName()))) {
