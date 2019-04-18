@@ -1,6 +1,14 @@
 # Simfixplusplus
 Simfix with Opennmt
 
+## buggy.token
+Tokenized java buggy code extracted from Defects4j projects history
+## buggy_javasource.token
+Buggy java source code extracted from Defects4j projects history
+## patch.token
+Tokenized java patch code extracted from Defects4j projects history
+## patch_javasource.token
+patched java source code extracted from Defects4j projects history
 # Update
 Additional argument: 
 --proj_tech=[similar|patch|all]
