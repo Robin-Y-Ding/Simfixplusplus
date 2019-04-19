@@ -10,6 +10,7 @@ import java.io.File;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Date;
 import java.util.HashSet;
 import java.util.List;
@@ -182,6 +183,10 @@ public class Main {
 						idSet.add(id);
 					}
 				}
+			} else if(args[i].startsWith("--proj_tech=")){
+				String arg = args[i].substring("--proj_tech=".length());
+				Constant.PROJ_TECH = Arrays.asList(Constant.PROJ_TECH_LIST).contains(arg) ? arg : Constant.PROJ_TECH;
+				System.out.println(Constant.PROJ_TECH);
 			}
 		}
 		options.setFirst(projName);

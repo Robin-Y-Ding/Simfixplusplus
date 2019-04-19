@@ -48,5 +48,8 @@ public class Constant {
 	public static String COMMAND_TIMEOUT = "/usr/bin/timeout ";
 	public static String COMMAND_D4J = null;
 	
-
+	// additional parameter for project technique
+	public static String[] PROJ_TECH_LIST = {"similar","patch","all"};
+	private static int proj_tech_default = 0;
+	public static String PROJ_TECH = PROJ_TECH_LIST[proj_tech_default];
 }

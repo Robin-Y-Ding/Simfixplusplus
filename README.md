@@ -6,12 +6,7 @@ Additional argument:
 --proj_tech=[similar|patch|all]
 	Set the techniques to be applied to the buggy program.
 
-# Code Changes
-confix.common.config/Constant: line 38
-	Add parameter PROJ_TECH to keep the user selected technique.
-
-confix.main/Main:
-	Take in the extra parameter
-
-confix.main/Repair:
-	Print the buggy code blocks required for Simfix++.
+To run:  
+1. Make sure defects4j is set up by running the scripts in simfix-automatic-build
+2. Make sure that sbfl data.zip is unzip
+3. Make sure running Eclipse in the same terminal as the one running (1) scripts.
