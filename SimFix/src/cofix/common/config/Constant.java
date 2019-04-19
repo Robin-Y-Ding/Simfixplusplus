@@ -34,10 +34,8 @@ public class Constant {
 	public static String PROJ_JSON_FILE = HOME + "/d4j-info/project.json";
 	public static String PROJ_LOG_BASE_PATH = HOME + "/log";
 	public static String PROJ_REALTIME_LOC_BASE = HOME + "/d4j-info/realtime/location";
-	// newly added, used to determine which tehcnique to use, Simfix++, simfix, or both
-	public static String[] PROJ_TECH_LIST = {"all","similar","patch"};
-	public static String PROJ_TECH = PROJ_TECH_LIST[1]; // similar, patch, all
-
+	
+	
 	// command configuration
 	public final static String COMMAND_CD = "cd ";
 	public final static int COMPILE_TIMEOUT = 120;

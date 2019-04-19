@@ -44,8 +44,8 @@ public class Configure {
 	private final static String __name__ = "@Configure ";
 	
 	public static void configEnvironment(){
-		// String d4jhome = System.getenv("DEFECTS4J_HOME");
-		String d4jhome = "/home/joe/defects4j";
+		String d4jhome = System.getenv("DEFECTS4J_HOME");
+
 		if(d4jhome == null){
 			System.err.println("Please set defects4j classpath first!");
 			System.exit(0);

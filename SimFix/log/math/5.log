@@ -1,0 +1,84 @@
+=================================================
+Project : math_5	start : 19/04/19 10:37
+Current failed test : org.apache.commons.math3.complex.ComplexTest::testReciprocalZero | 19/04/19 10:38
+Fri Apr 19 10:38:05 EDT 2019 org.apache.commons.math3.complex.Complex,305
+Fri Apr 19 10:38:09 EDT 2019 org.apache.commons.math3.complex.Complex,1228
+=================================================
+Project : math_5	start : 19/04/19 10:41
+Current failed test : org.apache.commons.math3.complex.ComplexTest::testReciprocalZero | 19/04/19 10:42
+Fri Apr 19 10:42:09 EDT 2019 org.apache.commons.math3.complex.Complex,305
+Fri Apr 19 10:42:13 EDT 2019 org.apache.commons.math3.complex.Complex,1228
+Fri Apr 19 10:42:19 EDT 2019 org.apache.commons.math3.complex.Complex,304
+Fri Apr 19 10:42:20 EDT 2019 org.apache.commons.math3.complex.Complex,300
+Fri Apr 19 10:42:23 EDT 2019 org.apache.commons.math3.complex.Complex,348
+=================================================
+Project : math_5	start : 19/04/19 10:45
+Current failed test : org.apache.commons.math3.complex.ComplexTest::testReciprocalZero | 19/04/19 10:46
+Fri Apr 19 10:46:04 EDT 2019 org.apache.commons.math3.complex.Complex,305
+Fri Apr 19 10:46:08 EDT 2019 org.apache.commons.math3.complex.Complex,1228
+=================================================
+Project : math_5	start : 19/04/19 11:10
+Current failed test : org.apache.commons.math3.complex.ComplexTest::testReciprocalZero | 19/04/19 11:10
+Fri Apr 19 11:10:28 EDT 2019 org.apache.commons.math3.complex.Complex,305
+Fri Apr 19 11:10:33 EDT 2019 org.apache.commons.math3.complex.Complex,1228
+Fri Apr 19 11:10:39 EDT 2019 org.apache.commons.math3.complex.Complex,304
+Fri Apr 19 11:10:39 EDT 2019 org.apache.commons.math3.complex.Complex,300
+Fri Apr 19 11:10:43 EDT 2019 org.apache.commons.math3.complex.Complex,348
+Fri Apr 19 11:10:49 EDT 2019 org.apache.commons.math3.complex.Complex,344
+=================================================
+Project : math_5	start : 19/04/19 11:25
+=================================================
+Project : math_5	start : 19/04/19 11:27
+Current failed test : org.apache.commons.math3.complex.ComplexTest::testReciprocalZero | 19/04/19 11:27
+Fri Apr 19 11:27:31 EDT 2019 org.apache.commons.math3.complex.Complex,305
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(real==0.0&&imaginary==0.0){
+return INF;
+}
+
+Time : 19/04/19 11:27
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Similar code block : 1.7606388292556647 : [/home/joe/Simfixplusplus/simfix-automatic-build/d4j/projects/math/math_5_buggy/src/main/java/org/apache/commons/math3/complex/Complex.java=>0,0]
+if(Double.isInfinite(real)||Double.isInfinite(imaginary)){
+return INF;
+}
+
+Time : 19/04/19 11:29
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Original source code : [/home/joe/Simfixplusplus/simfix-automatic-build/d4j/projects/math/math_5_buggy/src/main/java/org/apache/commons/math3/complex/Complex.java=>304,306]
+if(real==0.0&&imaginary==0.0){
+return NaN;
+}
+
+Time : 19/04/19 11:29
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Find a patch : [/home/joe/Simfixplusplus/simfix-automatic-build/d4j/projects/math/math_5_buggy/src/main/java/org/apache/commons/math3/complex/Complex.java=>304,306]
+if(real==0.0&&imaginary==0.0){
+return INF;
+}
+
+Time : 19/04/19 11:29
+----------------------------------------
+Success time : 19/04/19 11:29
+=================================================
+Project : math_5	start : 19/04/19 12:29
+=================================================
+Project : math_5	start : 19/04/19 12:29
+=================================================
+Project : math_5	start : 19/04/19 12:36
+=================================================
+Project : math_5	start : 19/04/19 12:41
+Current failed test : org.apache.commons.math3.complex.ComplexTest::testReciprocalZero | 19/04/19 12:41
+Fri Apr 19 12:41:56 EDT 2019 org.apache.commons.math3.complex.Complex,305
