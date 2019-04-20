@@ -1,0 +1,75 @@
+if (dataset != null) {
+this(time, RegularTimePeriod.DEFAULT_TIME_ZONE, Locale.getDefault());
+if (endIndex < 0) {
+return " title=\"" + toolTipText
+PathIterator iterator2 = p1.getPathIterator(null);
+this.dataset = dataset;
+new Range(0.0, constraint.getWidth() - w[2]),
+super(paint, stroke, paint, stroke, alpha);
+int g = (int) ((value - this.lowerBound) / (this.upperBound
+return allResultsMatch(n, MAY_BE_STRING_PREDICATE);
+cfa.createEdge(fromNode, Branch.UNCOND, finallyNode);
+if (options.dependencyOptions.needsManagement() && options.closurePass) {
+if (x < 0 && prev == '-') {
+if ((long) x == x) {
+return len > 0;
+if (target != null) {
+&& 0 <= charno && charno < sourceExcerpt.length()) {
+&& 0 <= charno && charno < sourceExcerpt.length()) {
+case '\0': sb.append("\\0"); break;
+) {
+jsDocParameter.getJSType(), true);
+boolean isOverride = t.inGlobalScope() &&
+if (c > 0x1f && c <= 0x7f) {
+return true;
+int indexOfDot = namespace.indexOf('.');
+int indexOfDot = namespace.indexOf('.');
+if (result != null) {
+if (provided != null) {
+} else {
+Context rhsContext = Context.OTHER;
+if (fnType != null) {
+if (name.globalSets == 1 && name.localSets == 0 &&
+pos += Character.charCount(Character.codePointAt(input, pos));
+if (str.startsWith("0x") || str.startsWith("-0x")) {
+cal1.get(Calendar.HOUR) == cal2.get(Calendar.HOUR) &&
+return foundDigit && !hasExp;
+Calendar c = new GregorianCalendar(mTimeZone);
+static float toJavaVersionInt(String version) {
+classes[i] = array[i].getClass();
+return cAvailableLocaleSet.contains(locale);
+str.getChars(0, strLen, buffer, size);
+int len = thisBuf.length - strLen;
+return (double) (getSampleSize() * getNumberOfSuccesses()) / (double) getPopulationSize();
+return NaN;
+return FastMath.pow(2 * FastMath.PI, -dim / 2) *
+return multiply(100).doubleValue();
+final int n1n2prod = n1 * n2;
+if ((Boolean) tree.getAttribute()) {
+if (Precision.compareTo(entry, 0d, maxUlps) > 0) {
+return chromosomes.iterator();
+for (int i = 0; i < weights.length; i++) {
+int sum = 0;
+return fit(new Gaussian.Parametric(), guess);
+return (a <= b) ? b : (Float.isNaN(a + b) ? Float.NaN : b);
+return (Double.isNaN(x) && Double.isNaN(y)) || x == y;
+out[i][j] = 2 * (1 - tDistribution.cumulativeProbability(t));
+return solve(min, max);
+return getCumPct((Comparable<?>) v);
+int j = 4 * n - 1;
+if (MathUtils.compareTo(entry, 0, epsilon) >= 0) {
+if (fa * fb >= 0.0 ) {
+if (u * v == 0) {
+ret = (Double.doubleToRawLongBits(real) == Double.doubleToRawLongBits(rhs.getReal())) && (Double.doubleToRawLongBits(imaginary) == Double.doubleToRawLongBits(rhs.getImaginary()));
+private static final double DEFAULT_EPSILON = 10e-9;
+return sumYY - sumXY * sumXY / sumXX;
+catch (org.mockito.exceptions.verification.junit.ArgumentsAreDifferent e) {
+} else {
+return 1;
+primitiveValues.put(double.class, 0);
+description.appendText(wanted.toString());
+if (m instanceof CapturesArguments) {
+return StringDescription.toString(m).equals(arg.toString());
+Partial newPartial = new Partial(iChronology, newTypes, newValues);
+instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);
+} else if (offsetLocal > 0) {
