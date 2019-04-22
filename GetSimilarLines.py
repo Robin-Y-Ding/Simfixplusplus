@@ -1,6 +1,7 @@
 import math
 import os
 import sys
+import javalang
 
 def calculate_edit_distance(org_code, cand_code):
 	"""
@@ -54,6 +55,18 @@ def get_similar_loc(org_code_file, N):
 
 	N = int(N)
 	org_code = open(org_code_file, "r").readline().strip()
+	tokens_string = ""
+	try:
+		tokens = list(javalang.tokenizer.tokenize(org_code))
+		for token in tokens:
+				tokens_string = tokens_string + token.value + " "
+	except:
+		sys.stderr.write("Tokenization failed\n")
+		sys.exit(1)
+	
+	org_code = tokens_string
+	print (org_code)
+
 	'''
 	if len(line) > 1:
 		print ("We only process one line bug for now.")
