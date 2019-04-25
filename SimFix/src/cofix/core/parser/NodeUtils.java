@@ -391,7 +391,7 @@ public class NodeUtils {
 			for(int i = 1; i < tarArgs.size(); i++){
 				stringBuffer.append(",");
 				if(matchRec[i] == -1){
-					if(!allUsableVariables.containsKey(tarArgs.get(0).toSrcString())){
+					if(!allUsableVariables.containsKey(tarArgs.get(i).toSrcString().toString())){
 						return modifications;
 					}
 					stringBuffer.append(tarArgs.get(i).toSrcString());

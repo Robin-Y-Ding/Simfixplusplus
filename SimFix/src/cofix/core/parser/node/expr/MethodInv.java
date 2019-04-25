@@ -34,9 +34,9 @@ import cofix.core.parser.node.Node;
  */
 public class MethodInv extends Expr {
 
-	private Expr _expression = null;
-	private String _name = null;
-	private List<Expr> _arguments = null;
+	public Expr _expression = null;
+	public String _name = null;
+	public List<Expr> _arguments = null;
 	
 	private String _expression_replace = null;
 	private String _name_replace = null;

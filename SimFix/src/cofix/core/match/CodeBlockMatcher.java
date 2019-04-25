@@ -119,8 +119,8 @@ public class CodeBlockMatcher {
 					continue;
 				}
 				Node simNode = sNodes.get(j);
-				List<Modification> tmp = new LinkedList<>();
-				if(buggyNode.match(simNode, varTrans, allUsableVariables, tmp)){
+				List<Modification> tmp = new LinkedList<>();				
+				if(buggyNode.match(simNode, varTrans, allUsableVariables, tmp)){					
 					match.put(i, j);
 					reverseMatch.put(j, i);
 					modifications.addAll(tmp);

@@ -1,0 +1,265 @@
+[DEBUG] PID: lang
+[DEBUG] VID: 26
+[DEBUG] DATA_DIR: /home/joe/Simfixplusplus/SimFix/sbfl/spectra/lang/26
+[DEBUG] TOOL: developer
+[DEBUG] TESTS_DIR: 
+[DEBUG] TMP_DIR: /home/joe/Simfixplusplus/simfix-automatic-build/d4j/projects/lang/lang_26_buggy
+[DEBUG] DIR_PROJECT: /home/joe/defects4j/framework/projects/Lang
+[DEBUG] DIR_LOADED_CLASSES: /home/joe/defects4j/framework/projects/Lang/loaded_classes
+[DEBUG] DIR_RELEVANT_TESTS: /home/joe/defects4j/framework/projects/Lang/relevant_tests
+[DEBUG] DIR_TRIGGER_TESTS: /home/joe/defects4j/framework/projects/Lang/trigger_tests
+[DEBUG] JAVA_VERSION:
+Picked up _JAVA_OPTIONS: -XX:MaxHeapSize=1024m -Xmx4096m
+java version "1.7.0_79"
+Java(TM) SE Runtime Environment (build 1.7.0_79-b15)
+Java HotSpot(TM) 64-Bit Server VM (build 24.79-b02, mixed mode)
+[DEBUG] LOADED_CLASSES: org.apache.commons.lang3.time.FastDateFormat:
+[DEBUG] LOADED_SUB_CLASSES: org.apache.commons.lang3.time.FastDateFormat$*:
+[DEBUG] RELEVANT_TESTS: org.apache.commons.lang3.time.DateFormatUtilsTest:org.apache.commons.lang3.time.DateUtilsRoundingTest:org.apache.commons.lang3.time.DateUtilsTest:org.apache.commons.lang3.time.DurationFormatUtilsTest:org.apache.commons.lang3.time.FastDateFormatTest:
+[DEBUG] TRIGGER_TESTS_FILE: /home/joe/defects4j/framework/projects/Lang/trigger_tests/26
+[DEBUG] CP: /home/joe/defects4j/framework/projects/lib/junit-4.11.jar:/home/joe/defects4j/framework/projects/Lang/lib/junit/junit/4.7/junit-4.7.jar:/home/joe/defects4j/framework/projects/Lang/lib/org/easymock/easymock/2.5.2/easymock-2.5.2.jar:/home/joe/Simfixplusplus/simfix-automatic-build/d4j/projects/lang/lang_26_buggy/target/classes:/home/joe/Simfixplusplus/simfix-automatic-build/d4j/projects/lang/lang_26_buggy/target/test-classes:/home/joe/defects4j/framework/projects/Lang/lib/cglib.jar:/home/joe/defects4j/framework/projects/Lang/lib/asm.jar:/home/joe/defects4j/framework/projects/Lang/lib/easymock.jar:/home/joe/defects4j/framework/projects/Lang/lib/commons-io.jar
+[INFO] Compiling lang-26
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
+[INFO] Running GZoltar
+[INFO] Start: Thu Apr 25 14:18:39 PDT 2019
+   ____ _____     _ _               
+  / ___|__  /___ | | |_ __ _ _ __   
+ | |  _  / // _ \| | __/ _` | '__| 
+ | |_| |/ /| (_) | | || (_| | |     
+  \____/____\___/|_|\__\__,_|_| 
+
+[ERROR] /home/joe/defects4j/framework/projects/Lang/lib/junit/junit/4.7/junit-4.7.jar does not exist
+java.lang.Exception
+	at com.gzoltar.lib.master.modes.Diagnose.execute(Unknown Source)
+	at com.gzoltar.lib.master.GZoltar.parseCommandLine(Unknown Source)
+	at com.gzoltar.lib.master.GZoltar.main(Unknown Source)
+* Preparing classpath
+* Collecting classes under test
+* Collecting test cases
+* Performing analysis
+* Started org.apache.commons.lang3.time.DateUtilsTest#testParseDateWithLeniency
+* Finished org.apache.commons.lang3.time.DateUtilsTest#testParseDateWithLeniency
+* Started org.apache.commons.lang3.time.DateUtilsTest#testAddMinutes
+* Finished org.apache.commons.lang3.time.DateUtilsTest#testAddMinutes
+* Started org.apache.commons.lang3.time.DateUtilsTest#testMonthIterator
+* Finished org.apache.commons.lang3.time.DateUtilsTest#testMonthIterator
+* Started org.apache.commons.lang3.time.DateUtilsTest#testRoundLang346
+* Finished org.apache.commons.lang3.time.DateUtilsTest#testRoundLang346
+* Started org.apache.commons.lang3.time.DateUtilsTest#testSetMilliseconds
+* Finished org.apache.commons.lang3.time.DateUtilsTest#testSetMilliseconds
+* Started org.apache.commons.lang3.time.DateUtilsTest#testTruncate
+* Finished org.apache.commons.lang3.time.DateUtilsTest#testTruncate
+* Started org.apache.commons.lang3.time.DateUtilsTest#testIsSameLocalTime_Cal
+* Finished org.apache.commons.lang3.time.DateUtilsTest#testIsSameLocalTime_Cal
+* Started org.apache.commons.lang3.time.DateUtilsTest#testAddDays
+* Finished org.apache.commons.lang3.time.DateUtilsTest#testAddDays
+* Started org.apache.commons.lang3.time.DateUtilsTest#testRound
+* Finished org.apache.commons.lang3.time.DateUtilsTest#testRound
+* Started org.apache.commons.lang3.time.DateUtilsTest#testParseDate
+* Finished org.apache.commons.lang3.time.DateUtilsTest#testParseDate
+* Started org.apache.commons.lang3.time.DateUtilsTest#testCeil
+* Finished org.apache.commons.lang3.time.DateUtilsTest#testCeil
+* Started org.apache.commons.lang3.time.DateUtilsTest#testAddSeconds
+* Finished org.apache.commons.lang3.time.DateUtilsTest#testAddSeconds
+* Started org.apache.commons.lang3.time.DateUtilsTest#testSetMinutes
+* Finished org.apache.commons.lang3.time.DateUtilsTest#testSetMinutes
+* Started org.apache.commons.lang3.time.DateUtilsTest#testToCalendar
+* Finished org.apache.commons.lang3.time.DateUtilsTest#testToCalendar
+* Started org.apache.commons.lang3.time.DateUtilsTest#testAddHours
+* Finished org.apache.commons.lang3.time.DateUtilsTest#testAddHours
+* Started org.apache.commons.lang3.time.DateUtilsTest#testAddWeeks
+* Finished org.apache.commons.lang3.time.DateUtilsTest#testAddWeeks
+* Started org.apache.commons.lang3.time.DateUtilsTest#testAddYears
+* Finished org.apache.commons.lang3.time.DateUtilsTest#testAddYears
+* Started org.apache.commons.lang3.time.DateUtilsTest#testTruncateLang59
+* Finished org.apache.commons.lang3.time.DateUtilsTest#testTruncateLang59
+* Started org.apache.commons.lang3.time.DateUtilsTest#testIsSameInstant_Date
+* Finished org.apache.commons.lang3.time.DateUtilsTest#testIsSameInstant_Date
+* Started org.apache.commons.lang3.time.DateUtilsTest#testLang530
+* Finished org.apache.commons.lang3.time.DateUtilsTest#testLang530
+* Started org.apache.commons.lang3.time.DateUtilsTest#testSetSeconds
+* Finished org.apache.commons.lang3.time.DateUtilsTest#testSetSeconds
+* Started org.apache.commons.lang3.time.DateUtilsTest#testIsSameInstant_Cal
+* Finished org.apache.commons.lang3.time.DateUtilsTest#testIsSameInstant_Cal
+* Started org.apache.commons.lang3.time.DateUtilsTest#testAddMonths
+* Finished org.apache.commons.lang3.time.DateUtilsTest#testAddMonths
+* Started org.apache.commons.lang3.time.DateUtilsTest#testWeekIterator
+* Finished org.apache.commons.lang3.time.DateUtilsTest#testWeekIterator
+* Started org.apache.commons.lang3.time.DateUtilsTest#testSetMonths
+* Finished org.apache.commons.lang3.time.DateUtilsTest#testSetMonths
+* Started org.apache.commons.lang3.time.DateUtilsTest#testSetDays
+* Finished org.apache.commons.lang3.time.DateUtilsTest#testSetDays
+* Started org.apache.commons.lang3.time.DateUtilsTest#testIsSameDay_Date
+* Finished org.apache.commons.lang3.time.DateUtilsTest#testIsSameDay_Date
+* Started org.apache.commons.lang3.time.DateUtilsTest#testIsSameDay_Cal
+* Finished org.apache.commons.lang3.time.DateUtilsTest#testIsSameDay_Cal
+* Started org.apache.commons.lang3.time.DateUtilsTest#testIteratorEx
+* Finished org.apache.commons.lang3.time.DateUtilsTest#testIteratorEx
+* Started org.apache.commons.lang3.time.DateUtilsTest#testAddMilliseconds
+* Finished org.apache.commons.lang3.time.DateUtilsTest#testAddMilliseconds
+* Started org.apache.commons.lang3.time.DateUtilsTest#testConstructor
+* Finished org.apache.commons.lang3.time.DateUtilsTest#testConstructor
+* Started org.apache.commons.lang3.time.DateUtilsTest#testSetHours
+* Finished org.apache.commons.lang3.time.DateUtilsTest#testSetHours
+* Started org.apache.commons.lang3.time.DateUtilsTest#testSetYears
+* Finished org.apache.commons.lang3.time.DateUtilsTest#testSetYears
+* Started org.apache.commons.lang3.time.DateUtilsRoundingTest#testRoundMilliSecond
+* Finished org.apache.commons.lang3.time.DateUtilsRoundingTest#testRoundMilliSecond
+* Started org.apache.commons.lang3.time.DateUtilsRoundingTest#testRoundDayOfMonth
+* Finished org.apache.commons.lang3.time.DateUtilsRoundingTest#testRoundDayOfMonth
+* Started org.apache.commons.lang3.time.DateUtilsRoundingTest#testRoundMinute
+* Finished org.apache.commons.lang3.time.DateUtilsRoundingTest#testRoundMinute
+* Started org.apache.commons.lang3.time.DateUtilsRoundingTest#testRoundSecond
+* Finished org.apache.commons.lang3.time.DateUtilsRoundingTest#testRoundSecond
+* Started org.apache.commons.lang3.time.DateUtilsRoundingTest#testRoundMonth
+* Finished org.apache.commons.lang3.time.DateUtilsRoundingTest#testRoundMonth
+* Started org.apache.commons.lang3.time.DateUtilsRoundingTest#testTruncateSemiMonth
+* Finished org.apache.commons.lang3.time.DateUtilsRoundingTest#testTruncateSemiMonth
+* Started org.apache.commons.lang3.time.DateUtilsRoundingTest#testTruncateMinute
+* Finished org.apache.commons.lang3.time.DateUtilsRoundingTest#testTruncateMinute
+* Started org.apache.commons.lang3.time.DateUtilsRoundingTest#testRoundSemiMonth
+* Finished org.apache.commons.lang3.time.DateUtilsRoundingTest#testRoundSemiMonth
+* Started org.apache.commons.lang3.time.DateUtilsRoundingTest#testTruncateSecond
+* Finished org.apache.commons.lang3.time.DateUtilsRoundingTest#testTruncateSecond
+* Started org.apache.commons.lang3.time.DateUtilsRoundingTest#testRoundAmPm
+* Finished org.apache.commons.lang3.time.DateUtilsRoundingTest#testRoundAmPm
+* Started org.apache.commons.lang3.time.DateUtilsRoundingTest#testRoundDate
+* Finished org.apache.commons.lang3.time.DateUtilsRoundingTest#testRoundDate
+* Started org.apache.commons.lang3.time.DateUtilsRoundingTest#testRoundHour
+* Finished org.apache.commons.lang3.time.DateUtilsRoundingTest#testRoundHour
+* Started org.apache.commons.lang3.time.DateUtilsRoundingTest#testRoundYear
+* Finished org.apache.commons.lang3.time.DateUtilsRoundingTest#testRoundYear
+* Started org.apache.commons.lang3.time.DateUtilsRoundingTest#testTruncateMilliSecond
+* Finished org.apache.commons.lang3.time.DateUtilsRoundingTest#testTruncateMilliSecond
+* Started org.apache.commons.lang3.time.DateUtilsRoundingTest#testTruncateHourOfDay
+* Finished org.apache.commons.lang3.time.DateUtilsRoundingTest#testTruncateHourOfDay
+* Started org.apache.commons.lang3.time.DateUtilsRoundingTest#testTruncateMonth
+* Finished org.apache.commons.lang3.time.DateUtilsRoundingTest#testTruncateMonth
+* Started org.apache.commons.lang3.time.DateUtilsRoundingTest#testRoundHourOfDay
+* Finished org.apache.commons.lang3.time.DateUtilsRoundingTest#testRoundHourOfDay
+* Started org.apache.commons.lang3.time.DateUtilsRoundingTest#testTruncateAmPm
+* Finished org.apache.commons.lang3.time.DateUtilsRoundingTest#testTruncateAmPm
+* Started org.apache.commons.lang3.time.DateUtilsRoundingTest#testTruncateDate
+* Finished org.apache.commons.lang3.time.DateUtilsRoundingTest#testTruncateDate
+* Started org.apache.commons.lang3.time.DateUtilsRoundingTest#testTruncateHour
+* Finished org.apache.commons.lang3.time.DateUtilsRoundingTest#testTruncateHour
+* Started org.apache.commons.lang3.time.DateUtilsRoundingTest#testTruncateYear
+* Finished org.apache.commons.lang3.time.DateUtilsRoundingTest#testTruncateYear
+* Started org.apache.commons.lang3.time.DateUtilsRoundingTest#testTruncateDayOfMonth
+* Finished org.apache.commons.lang3.time.DateUtilsRoundingTest#testTruncateDayOfMonth
+* Started org.apache.commons.lang3.time.DateFormatUtilsTest#testFormatUTC
+* Finished org.apache.commons.lang3.time.DateFormatUtilsTest#testFormatUTC
+* Started org.apache.commons.lang3.time.DateFormatUtilsTest#testTimeISO
+* Finished org.apache.commons.lang3.time.DateFormatUtilsTest#testTimeISO
+* Started org.apache.commons.lang3.time.DateFormatUtilsTest#testFormatCalendar
+* Finished org.apache.commons.lang3.time.DateFormatUtilsTest#testFormatCalendar
+* Started org.apache.commons.lang3.time.DateFormatUtilsTest#testSMTP
+* Finished org.apache.commons.lang3.time.DateFormatUtilsTest#testSMTP
+* Started org.apache.commons.lang3.time.DateFormatUtilsTest#testDateTimeISO
+* Finished org.apache.commons.lang3.time.DateFormatUtilsTest#testDateTimeISO
+* Started org.apache.commons.lang3.time.DateFormatUtilsTest#testTimeNoTISO
+* Finished org.apache.commons.lang3.time.DateFormatUtilsTest#testTimeNoTISO
+* Started org.apache.commons.lang3.time.DateFormatUtilsTest#testDateISO
+* Finished org.apache.commons.lang3.time.DateFormatUtilsTest#testDateISO
+* Started org.apache.commons.lang3.time.DateFormatUtilsTest#testFormat
+* Finished org.apache.commons.lang3.time.DateFormatUtilsTest#testFormat
+* Started org.apache.commons.lang3.time.DateFormatUtilsTest#testConstructor
+* Finished org.apache.commons.lang3.time.DateFormatUtilsTest#testConstructor
+* Started org.apache.commons.lang3.time.DurationFormatUtilsTest#testDurationsByBruteForce
+* Finished org.apache.commons.lang3.time.DurationFormatUtilsTest#testDurationsByBruteForce
+* Started org.apache.commons.lang3.time.DurationFormatUtilsTest#testFormatPeriod
+* Finished org.apache.commons.lang3.time.DurationFormatUtilsTest#testFormatPeriod
+* Started org.apache.commons.lang3.time.DurationFormatUtilsTest#testLowDurations
+* Finished org.apache.commons.lang3.time.DurationFormatUtilsTest#testLowDurations
+* Started org.apache.commons.lang3.time.DurationFormatUtilsTest#testLexx
+* Finished org.apache.commons.lang3.time.DurationFormatUtilsTest#testLexx
+* Started org.apache.commons.lang3.time.DurationFormatUtilsTest#testFormatDurationHMS
+* Finished org.apache.commons.lang3.time.DurationFormatUtilsTest#testFormatDurationHMS
+* Started org.apache.commons.lang3.time.DurationFormatUtilsTest#testFormatDurationISO
+* Finished org.apache.commons.lang3.time.DurationFormatUtilsTest#testFormatDurationISO
+* Started org.apache.commons.lang3.time.DurationFormatUtilsTest#testFormatPeriodISO
+* Finished org.apache.commons.lang3.time.DurationFormatUtilsTest#testFormatPeriodISO
+* Started org.apache.commons.lang3.time.DurationFormatUtilsTest#testEdgeDurations
+* Finished org.apache.commons.lang3.time.DurationFormatUtilsTest#testEdgeDurations
+* Started org.apache.commons.lang3.time.DurationFormatUtilsTest#testFormatDurationPluralWords
+* Finished org.apache.commons.lang3.time.DurationFormatUtilsTest#testFormatDurationPluralWords
+* Started org.apache.commons.lang3.time.DurationFormatUtilsTest#testBugzilla38401
+* Finished org.apache.commons.lang3.time.DurationFormatUtilsTest#testBugzilla38401
+* Started org.apache.commons.lang3.time.DurationFormatUtilsTest#testFormatDuration
+* Finished org.apache.commons.lang3.time.DurationFormatUtilsTest#testFormatDuration
+* Started org.apache.commons.lang3.time.DurationFormatUtilsTest#testFormatDurationWords
+* Finished org.apache.commons.lang3.time.DurationFormatUtilsTest#testFormatDurationWords
+* Started org.apache.commons.lang3.time.DurationFormatUtilsTest#testJiraLang281
+* Finished org.apache.commons.lang3.time.DurationFormatUtilsTest#testJiraLang281
+* Started org.apache.commons.lang3.time.DurationFormatUtilsTest#testConstructor
+* Finished org.apache.commons.lang3.time.DurationFormatUtilsTest#testConstructor
+* Started org.apache.commons.lang3.time.FastDateFormatTest#testSimpleDate
+* Finished org.apache.commons.lang3.time.FastDateFormatTest#testSimpleDate
+* Started org.apache.commons.lang3.time.FastDateFormatTest#testShortDateStyleWithLocales
+* Finished org.apache.commons.lang3.time.FastDateFormatTest#testShortDateStyleWithLocales
+* Started org.apache.commons.lang3.time.FastDateFormatTest#testMilleniumBug
+* Finished org.apache.commons.lang3.time.FastDateFormatTest#testMilleniumBug
+* Started org.apache.commons.lang3.time.FastDateFormatTest#test_getInstance
+* Finished org.apache.commons.lang3.time.FastDateFormatTest#test_getInstance
+* Started org.apache.commons.lang3.time.FastDateFormatTest#testLowYearPadding
+* Finished org.apache.commons.lang3.time.FastDateFormatTest#testLowYearPadding
+* Started org.apache.commons.lang3.time.FastDateFormatTest#testLang303
+* Finished org.apache.commons.lang3.time.FastDateFormatTest#testLang303
+* Started org.apache.commons.lang3.time.FastDateFormatTest#testLang538
+* Finished org.apache.commons.lang3.time.FastDateFormatTest#testLang538
+* Started org.apache.commons.lang3.time.FastDateFormatTest#testLang645
+* Failure: expected:<fredag, week [53]> but was:<fredag, week [01]> | testLang645(org.apache.commons.lang3.time.FastDateFormatTest)
+junit.framework.ComparisonFailure: expected:<fredag, week [53]> but was:<fredag, week [01]>
+	at junit.framework.Assert.assertEquals(Assert.java:100)
+	at junit.framework.Assert.assertEquals(Assert.java:107)
+	at junit.framework.TestCase.assertEquals(TestCase.java:269)
+	at org.apache.commons.lang3.time.FastDateFormatTest.testLang645(FastDateFormatTest.java:337)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:255)
+	at junit.framework.TestSuite.run(TestSuite.java:250)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:84)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+* Finished org.apache.commons.lang3.time.FastDateFormatTest#testLang645
+* Started org.apache.commons.lang3.time.FastDateFormatTest#test_getInstance_String_TimeZone_Locale
+* Finished org.apache.commons.lang3.time.FastDateFormatTest#test_getInstance_String_TimeZone_Locale
+* Started org.apache.commons.lang3.time.FastDateFormatTest#test_changeDefault_Locale_DateInstance
+* Finished org.apache.commons.lang3.time.FastDateFormatTest#test_changeDefault_Locale_DateInstance
+* Started org.apache.commons.lang3.time.FastDateFormatTest#test_getInstance_String
+* Finished org.apache.commons.lang3.time.FastDateFormatTest#test_getInstance_String
+* Started org.apache.commons.lang3.time.FastDateFormatTest#test_getInstance_String_TimeZone
+* Finished org.apache.commons.lang3.time.FastDateFormatTest#test_getInstance_String_TimeZone
+* Started org.apache.commons.lang3.time.FastDateFormatTest#test_getInstance_String_Locale
+* Finished org.apache.commons.lang3.time.FastDateFormatTest#test_getInstance_String_Locale
+* Started org.apache.commons.lang3.time.FastDateFormatTest#testFormat
+* Finished org.apache.commons.lang3.time.FastDateFormatTest#testFormat
+* Started org.apache.commons.lang3.time.FastDateFormatTest#test_changeDefault_Locale_DateTimeInstance
+* Finished org.apache.commons.lang3.time.FastDateFormatTest#test_changeDefault_Locale_DateTimeInstance
+* Filtering test cases that do not cover any component
+* Sending data to master
+* Closing connection with client
+* Performing fault localization
+* Running Ochiai
+* Writing coverage matrix to '/home/joe/Simfixplusplus/SimFix/sbfl/spectra/lang/26/matrix'
+* Writing spectra to '/home/joe/Simfixplusplus/SimFix/sbfl/spectra/lang/26/spectra'
+* Metrics
+* Computation finished
+[INFO] End: Thu Apr 25 14:18:44 PDT 2019
+[DEBUG] MATRIX OK
+[DEBUG] SPECTRA OK
+
+DONE!

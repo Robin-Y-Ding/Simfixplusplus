@@ -80,9 +80,15 @@ public class ClassInstanceCreate extends Expr {
 		boolean match = false;
 		if(node instanceof ClassInstanceCreate){
 			ClassInstanceCreate other = (ClassInstanceCreate) node;
-			if(_classType.toString().equals(other._classType)){
+			if(_classType.toString().equals(other._classType.toString())){
 				match = true;
 				modifications.addAll(NodeUtils.handleArguments(this, ARGID, _nodeType, _arguments, other._arguments, varTrans, allUsableVariables));
+			}	
+		} else if(node instanceof MethodInv){
+			MethodInv other = (MethodInv) node;
+			modifications.addAll(NodeUtils.handleArguments(this, ARGID, _nodeType, _arguments, other._arguments, varTrans, allUsableVariables));
+			if(modifications.size() > 0){
+				match = true;
 			}
 		} else {
 			List<Node> children = node.getChildren();

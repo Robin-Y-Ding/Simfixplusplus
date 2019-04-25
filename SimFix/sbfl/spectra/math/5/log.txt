@@ -22,7 +22,7 @@ Java HotSpot(TM) 64-Bit Server VM (build 24.79-b02, mixed mode)
 Running ant (compile)...................................................... OK
 Running ant (compile.tests)................................................ OK
 [INFO] Running GZoltar
-[INFO] Start: Fri Apr 19 09:49:23 PDT 2019
+[INFO] Start: Wed Apr 24 07:07:50 PDT 2019
    ____ _____     _ _               
   / ___|__  /___ | | |_ __ _ _ __   
  | |  _  / // _ \| | __/ _` | '__| 
@@ -627,7 +627,7 @@ java.lang.AssertionError: expected:<(NaN, NaN)> but was:<(Infinity, Infinity)>
 * Writing spectra to '/home/joe/Simfixplusplus/SimFix/sbfl/spectra/math/5/spectra'
 * Metrics
 * Computation finished
-[INFO] End: Fri Apr 19 09:49:28 PDT 2019
+[INFO] End: Wed Apr 24 07:07:55 PDT 2019
 [DEBUG] MATRIX OK
 [DEBUG] SPECTRA OK
 

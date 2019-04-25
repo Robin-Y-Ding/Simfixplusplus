@@ -1,0 +1,974 @@
+=================================================
+Project : lang_26	start : 19/04/25 14:18
+Current failed test : org.apache.commons.lang3.time.FastDateFormatTest::testLang645 | 19/04/25 14:18
+Thu Apr 25 14:18:59 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,654
+Thu Apr 25 14:18:59 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,655
+Thu Apr 25 14:19:00 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,1171
+Thu Apr 25 14:19:00 EDT 2019 Thu Apr 25 14:19:00 EDT 2019 : org.apache.commons.lang3.time.FastDateFormat,1172=>Find no block
+Thu Apr 25 14:19:00 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,1130
+Thu Apr 25 14:19:00 EDT 2019 Thu Apr 25 14:19:00 EDT 2019 : org.apache.commons.lang3.time.FastDateFormat,1131=>Find no block
+Thu Apr 25 14:19:00 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,196
+Thu Apr 25 14:19:00 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,645
+Thu Apr 25 14:19:00 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,646
+Thu Apr 25 14:19:00 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,687
+Thu Apr 25 14:19:00 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,689
+Thu Apr 25 14:19:00 EDT 2019 Thu Apr 25 14:19:00 EDT 2019 : org.apache.commons.lang3.time.FastDateFormat,1115=>Find no block
+Thu Apr 25 14:19:00 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,1116
+Thu Apr 25 14:19:00 EDT 2019 Thu Apr 25 14:19:00 EDT 2019 : org.apache.commons.lang3.time.FastDateFormat,1117=>Find no block
+Thu Apr 25 14:19:00 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,1123
+Thu Apr 25 14:19:00 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,738
+Thu Apr 25 14:19:01 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,743
+Thu Apr 25 14:19:01 EDT 2019 Thu Apr 25 14:19:01 EDT 2019 : org.apache.commons.lang3.time.FastDateFormat,1148=>Find no block
+Thu Apr 25 14:19:01 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,1149
+Thu Apr 25 14:19:01 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,1150
+Thu Apr 25 14:19:01 EDT 2019 Thu Apr 25 14:19:01 EDT 2019 : org.apache.commons.lang3.time.FastDateFormat,1151=>Find no block
+Thu Apr 25 14:19:01 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,1157
+Thu Apr 25 14:19:01 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,1158
+Thu Apr 25 14:19:01 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,1159
+Thu Apr 25 14:19:01 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,1160
+Thu Apr 25 14:19:01 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,1161
+Thu Apr 25 14:19:01 EDT 2019 Thu Apr 25 14:19:01 EDT 2019 : org.apache.commons.lang3.time.FastDateFormat,1163=>Find no block
+Thu Apr 25 14:19:01 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,1164
+Thu Apr 25 14:19:01 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,543
+Thu Apr 25 14:19:01 EDT 2019 Thu Apr 25 14:19:01 EDT 2019 : org.apache.commons.lang3.time.FastDateFormat,1333=>Find no block
+Thu Apr 25 14:19:01 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,1334
+Thu Apr 25 14:19:01 EDT 2019 Thu Apr 25 14:19:01 EDT 2019 : org.apache.commons.lang3.time.FastDateFormat,1335=>Find no block
+Thu Apr 25 14:19:01 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,1341
+Thu Apr 25 14:19:01 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,771
+Thu Apr 25 14:19:01 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,216
+Thu Apr 25 14:19:02 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,217
+Thu Apr 25 14:19:02 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,218
+Thu Apr 25 14:19:02 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,683
+Thu Apr 25 14:19:02 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,684
+Thu Apr 25 14:19:02 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,730
+Thu Apr 25 14:19:02 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,732
+Thu Apr 25 14:19:02 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,734
+Thu Apr 25 14:19:02 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,735
+Thu Apr 25 14:19:02 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,737
+Thu Apr 25 14:19:02 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,745
+Thu Apr 25 14:19:02 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,747
+Thu Apr 25 14:19:02 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,748
+Thu Apr 25 14:19:02 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,750
+Thu Apr 25 14:19:02 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,558
+Thu Apr 25 14:19:02 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,559
+Thu Apr 25 14:19:02 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,561
+Thu Apr 25 14:19:02 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,562
+Thu Apr 25 14:19:02 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,563
+Thu Apr 25 14:19:02 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,566
+Thu Apr 25 14:19:02 EDT 2019 Thu Apr 25 14:19:02 EDT 2019 : org.apache.commons.lang3.time.FastDateFormat,567=>Find no block
+Thu Apr 25 14:19:02 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,578
+Thu Apr 25 14:19:02 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,579
+Thu Apr 25 14:19:02 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,581
+Thu Apr 25 14:19:02 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,582
+Thu Apr 25 14:19:03 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,583
+Thu Apr 25 14:19:03 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,584
+Thu Apr 25 14:19:03 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,585
+Thu Apr 25 14:19:03 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,586
+Thu Apr 25 14:19:03 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,588
+Thu Apr 25 14:19:03 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,589
+Thu Apr 25 14:19:03 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,591
+Thu Apr 25 14:19:04 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,592
+Thu Apr 25 14:19:05 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,593
+Thu Apr 25 14:19:05 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,594
+Thu Apr 25 14:19:05 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,596
+Thu Apr 25 14:19:06 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,597
+Thu Apr 25 14:19:06 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,602
+Thu Apr 25 14:19:06 EDT 2019 Thu Apr 25 14:19:06 EDT 2019 : org.apache.commons.lang3.time.FastDateFormat,604=>Find no block
+Thu Apr 25 14:19:06 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,694
+Thu Apr 25 14:19:06 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,697
+Thu Apr 25 14:19:06 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,708
+Thu Apr 25 14:19:06 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,710
+Thu Apr 25 14:19:06 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,711
+Thu Apr 25 14:19:06 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,713
+Thu Apr 25 14:19:06 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,714
+Thu Apr 25 14:19:06 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,717
+Thu Apr 25 14:19:06 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,719
+Thu Apr 25 14:19:06 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,720
+Thu Apr 25 14:19:06 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,721
+Thu Apr 25 14:19:06 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,722
+Thu Apr 25 14:19:06 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,723
+Thu Apr 25 14:19:06 EDT 2019 Thu Apr 25 14:19:06 EDT 2019 : org.apache.commons.lang3.time.FastDateFormat,727=>Find no block
+Thu Apr 25 14:19:06 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,755
+Thu Apr 25 14:19:06 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,756
+Thu Apr 25 14:19:06 EDT 2019 Thu Apr 25 14:19:06 EDT 2019 : org.apache.commons.lang3.time.FastDateFormat,767=>Find no block
+Thu Apr 25 14:19:06 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,535
+Thu Apr 25 14:19:06 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,536
+Thu Apr 25 14:19:06 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,539
+Thu Apr 25 14:19:07 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,541
+Thu Apr 25 14:19:07 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,542
+Thu Apr 25 14:19:07 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,545
+Thu Apr 25 14:19:07 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,547
+Thu Apr 25 14:19:07 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,548
+Thu Apr 25 14:19:07 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,551
+Thu Apr 25 14:19:07 EDT 2019 Thu Apr 25 14:19:07 EDT 2019 : org.apache.commons.lang3.time.FastDateFormat,552=>Find no block
+Thu Apr 25 14:19:07 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,213
+Thu Apr 25 14:19:07 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,214
+Thu Apr 25 14:19:08 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,215
+Thu Apr 25 14:19:08 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,220
+Thu Apr 25 14:19:08 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,1003
+Thu Apr 25 14:19:08 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,1004
+Thu Apr 25 14:19:09 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,1005
+Thu Apr 25 14:19:09 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,1006
+Thu Apr 25 14:19:09 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,1007
+Thu Apr 25 14:19:09 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,1008
+Thu Apr 25 14:19:09 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,1009
+Thu Apr 25 14:19:09 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,820
+Thu Apr 25 14:19:09 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,821
+Thu Apr 25 14:19:09 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,822
+Thu Apr 25 14:19:09 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,1348
+Thu Apr 25 14:19:10 EDT 2019 Thu Apr 25 14:19:10 EDT 2019 : org.apache.commons.lang3.time.FastDateFormat,1349=>Find no block
+Thu Apr 25 14:19:10 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,1355
+Thu Apr 25 14:19:11 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,1356
+Thu Apr 25 14:19:11 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,1357
+Thu Apr 25 14:19:11 EDT 2019 Thu Apr 25 14:19:11 EDT 2019 : org.apache.commons.lang3.time.FastDateFormat,1361=>Find no block
+Thu Apr 25 14:19:11 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,888
+Thu Apr 25 14:19:11 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,889
+Thu Apr 25 14:19:11 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,890
+Thu Apr 25 14:19:11 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,891
+Thu Apr 25 14:19:11 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,893
+Thu Apr 25 14:19:11 EDT 2019 Thu Apr 25 14:19:11 EDT 2019 : org.apache.commons.lang3.time.FastDateFormat,1659=>Find no block
+Thu Apr 25 14:19:11 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,1660
+Thu Apr 25 14:19:11 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,1661
+Thu Apr 25 14:19:11 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,1662
+Thu Apr 25 14:19:11 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,1664
+Thu Apr 25 14:19:11 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,1665
+Thu Apr 25 14:19:12 EDT 2019 Thu Apr 25 14:19:11 EDT 2019 : org.apache.commons.lang3.time.FastDateFormat,1666=>Find no block
+Thu Apr 25 14:19:12 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,1673
+Thu Apr 25 14:19:12 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,1681
+Thu Apr 25 14:19:12 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,1682
+Thu Apr 25 14:19:12 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,1684
+Thu Apr 25 14:19:12 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,1685
+Thu Apr 25 14:19:12 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,1686
+Thu Apr 25 14:19:12 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,1691
+Thu Apr 25 14:19:12 EDT 2019 Thu Apr 25 14:19:12 EDT 2019 : org.apache.commons.lang3.time.FastDateFormat,1273=>Find no block
+Thu Apr 25 14:19:12 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,1274
+Thu Apr 25 14:19:12 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,1276
+Thu Apr 25 14:19:12 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,1278
+Thu Apr 25 14:19:12 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,1279
+Thu Apr 25 14:19:12 EDT 2019 Thu Apr 25 14:19:12 EDT 2019 : org.apache.commons.lang3.time.FastDateFormat,1280=>Find no block
+Thu Apr 25 14:19:12 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,1286
+Thu Apr 25 14:19:12 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,1293
+Thu Apr 25 14:19:12 EDT 2019 Thu Apr 25 14:19:12 EDT 2019 : org.apache.commons.lang3.time.FastDateFormat,1294=>Find no block
+Thu Apr 25 14:19:12 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,1300
+Thu Apr 25 14:19:12 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,1301
+Thu Apr 25 14:19:12 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,1302
+Thu Apr 25 14:19:12 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,1304
+Thu Apr 25 14:19:12 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,1305
+Thu Apr 25 14:19:12 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,1308
+Thu Apr 25 14:19:12 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,1309
+Thu Apr 25 14:19:12 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,1311
+Thu Apr 25 14:19:12 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,1312
+Thu Apr 25 14:19:12 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,1314
+Thu Apr 25 14:19:12 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,1315
+Thu Apr 25 14:19:12 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,1317
+Thu Apr 25 14:19:12 EDT 2019 Thu Apr 25 14:19:12 EDT 2019 : org.apache.commons.lang3.time.FastDateFormat,1319=>Find no block
+Thu Apr 25 14:19:12 EDT 2019 Thu Apr 25 14:19:12 EDT 2019 : org.apache.commons.lang3.time.FastDateFormat,1084=>Find no block
+Thu Apr 25 14:19:12 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,1085
+Thu Apr 25 14:19:13 EDT 2019 Thu Apr 25 14:19:13 EDT 2019 : org.apache.commons.lang3.time.FastDateFormat,1086=>Find no block
+Thu Apr 25 14:19:13 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,1092
+Thu Apr 25 14:19:13 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,1099
+Thu Apr 25 14:19:13 EDT 2019 Thu Apr 25 14:19:13 EDT 2019 : org.apache.commons.lang3.time.FastDateFormat,1100=>Find no block
+Thu Apr 25 14:19:13 EDT 2019 Thu Apr 25 14:19:13 EDT 2019 : org.apache.commons.lang3.time.FastDateFormat,1448=>Find no block
+Thu Apr 25 14:19:13 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,1449
+Thu Apr 25 14:19:13 EDT 2019 Thu Apr 25 14:19:13 EDT 2019 : org.apache.commons.lang3.time.FastDateFormat,1450=>Find no block
+Thu Apr 25 14:19:13 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,1456
+Thu Apr 25 14:19:13 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,1463
+Thu Apr 25 14:19:13 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,1464
+Thu Apr 25 14:19:13 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,1465
+Thu Apr 25 14:19:13 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,1467
+Thu Apr 25 14:19:13 EDT 2019 Thu Apr 25 14:19:13 EDT 2019 : org.apache.commons.lang3.time.FastDateFormat,1468=>Find no block
+Thu Apr 25 14:19:13 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,1474
+Thu Apr 25 14:19:13 EDT 2019 Thu Apr 25 14:19:13 EDT 2019 : org.apache.commons.lang3.time.FastDateFormat,1475=>Find no block
+Thu Apr 25 14:19:13 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,1374
+Thu Apr 25 14:19:13 EDT 2019 Thu Apr 25 14:19:13 EDT 2019 : org.apache.commons.lang3.time.FastDateFormat,1375=>Find no block
+Thu Apr 25 14:19:13 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,1381
+Thu Apr 25 14:19:13 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,1388
+Thu Apr 25 14:19:13 EDT 2019 Thu Apr 25 14:19:13 EDT 2019 : org.apache.commons.lang3.time.FastDateFormat,1389=>Find no block
+Thu Apr 25 14:19:13 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,1395
+Thu Apr 25 14:19:13 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,1396
+Thu Apr 25 14:19:13 EDT 2019 Thu Apr 25 14:19:13 EDT 2019 : org.apache.commons.lang3.time.FastDateFormat,1397=>Find no block
+Thu Apr 25 14:19:13 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,1359
+Thu Apr 25 14:19:13 EDT 2019 Thu Apr 25 14:19:13 EDT 2019 : org.apache.commons.lang3.time.FastDateFormat,1186=>Find no block
+Thu Apr 25 14:19:13 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,1187
+Thu Apr 25 14:19:13 EDT 2019 Thu Apr 25 14:19:13 EDT 2019 : org.apache.commons.lang3.time.FastDateFormat,1188=>Find no block
+Thu Apr 25 14:19:13 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,1194
+Thu Apr 25 14:19:13 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,1201
+Thu Apr 25 14:19:13 EDT 2019 Thu Apr 25 14:19:13 EDT 2019 : org.apache.commons.lang3.time.FastDateFormat,1202=>Find no block
+Thu Apr 25 14:19:13 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,1208
+Thu Apr 25 14:19:13 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,1209
+Thu Apr 25 14:19:13 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,1210
+Thu Apr 25 14:19:13 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,1211
+Thu Apr 25 14:19:13 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,1212
+Thu Apr 25 14:19:13 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,1214
+Thu Apr 25 14:19:13 EDT 2019 Thu Apr 25 14:19:13 EDT 2019 : org.apache.commons.lang3.time.FastDateFormat,1216=>Find no block
+Failed time : 19/04/25 14:19
+=================================================
+Project : lang_26	start : 19/04/25 14:19
+Current failed test : org.apache.commons.lang3.time.FastDateFormatTest::testLang645 | 19/04/25 14:19
+Thu Apr 25 14:20:11 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,820
+Failed time : 19/04/25 14:20
+=================================================
+Project : lang_26	start : 19/04/25 14:20
+Current failed test : org.apache.commons.lang3.time.FastDateFormatTest::testLang645 | 19/04/25 14:20
+Thu Apr 25 14:21:09 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,820
+Failed time : 19/04/25 14:21
+=================================================
+Project : lang_26	start : 19/04/25 14:22
+Current failed test : org.apache.commons.lang3.time.FastDateFormatTest::testLang645 | 19/04/25 14:22
+Thu Apr 25 14:22:28 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,820
+=================================================
+Project : lang_26	start : 19/04/25 14:23
+Current failed test : org.apache.commons.lang3.time.FastDateFormatTest::testLang645 | 19/04/25 14:23
+Thu Apr 25 14:24:01 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,820
+Failed time : 19/04/25 14:24
+=================================================
+Project : lang_26	start : 19/04/25 14:30
+Current failed test : org.apache.commons.lang3.time.FastDateFormatTest::testLang645 | 19/04/25 14:30
+Thu Apr 25 14:30:55 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,820
+Failed time : 19/04/25 14:30
+=================================================
+Project : lang_26	start : 19/04/25 14:31
+Current failed test : org.apache.commons.lang3.time.FastDateFormatTest::testLang645 | 19/04/25 14:31
+Thu Apr 25 14:31:37 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,820
+Failed time : 19/04/25 14:31
+=================================================
+Project : lang_26	start : 19/04/25 14:32
+Current failed test : org.apache.commons.lang3.time.FastDateFormatTest::testLang645 | 19/04/25 14:32
+Thu Apr 25 14:33:03 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,820
+=================================================
+Project : lang_26	start : 19/04/25 14:34
+Current failed test : org.apache.commons.lang3.time.FastDateFormatTest::testLang645 | 19/04/25 14:34
+Thu Apr 25 14:34:46 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,820
+Failed time : 19/04/25 14:34
+=================================================
+Project : lang_26	start : 19/04/25 14:39
+Current failed test : org.apache.commons.lang3.time.FastDateFormatTest::testLang645 | 19/04/25 14:40
+Thu Apr 25 14:40:18 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,820
+Failed time : 19/04/25 14:40
+=================================================
+Project : lang_26	start : 19/04/25 14:44
+Current failed test : org.apache.commons.lang3.time.FastDateFormatTest::testLang645 | 19/04/25 14:44
+Thu Apr 25 14:44:47 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,820
+Failed time : 19/04/25 14:44
+=================================================
+Project : lang_26	start : 19/04/25 14:45
+Current failed test : org.apache.commons.lang3.time.FastDateFormatTest::testLang645 | 19/04/25 14:45
+Thu Apr 25 14:45:59 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,820
+Failed time : 19/04/25 14:45
+=================================================
+Project : lang_26	start : 19/04/25 14:48
+Current failed test : org.apache.commons.lang3.time.FastDateFormatTest::testLang645 | 19/04/25 14:48
+Thu Apr 25 14:48:54 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,820
+Failed time : 19/04/25 14:48
+=================================================
+Project : lang_26	start : 19/04/25 14:50
+Current failed test : org.apache.commons.lang3.time.FastDateFormatTest::testLang645 | 19/04/25 14:50
+Thu Apr 25 14:50:31 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,820
+Failed time : 19/04/25 14:50
+=================================================
+Project : lang_26	start : 19/04/25 14:51
+Current failed test : org.apache.commons.lang3.time.FastDateFormatTest::testLang645 | 19/04/25 14:51
+Thu Apr 25 14:51:56 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,820
+=================================================
+Project : lang_26	start : 19/04/25 15:01
+Current failed test : org.apache.commons.lang3.time.FastDateFormatTest::testLang645 | 19/04/25 15:02
+Thu Apr 25 15:02:26 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,820
+=================================================
+Project : lang_26	start : 19/04/25 15:03
+Current failed test : org.apache.commons.lang3.time.FastDateFormatTest::testLang645 | 19/04/25 15:03
+Thu Apr 25 15:04:07 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,820
+=================================================
+Project : lang_26	start : 19/04/25 15:04
+Current failed test : org.apache.commons.lang3.time.FastDateFormatTest::testLang645 | 19/04/25 15:04
+Thu Apr 25 15:05:11 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,820
+=================================================
+Project : lang_26	start : 19/04/25 15:05
+Current failed test : org.apache.commons.lang3.time.FastDateFormatTest::testLang645 | 19/04/25 15:05
+Thu Apr 25 15:05:46 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,820
+Failed time : 19/04/25 15:05
+=================================================
+Project : lang_26	start : 19/04/25 15:07
+Current failed test : org.apache.commons.lang3.time.FastDateFormatTest::testLang645 | 19/04/25 15:07
+=================================================
+Project : lang_26	start : 19/04/25 15:07
+Thu Apr 25 15:07:38 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,820
+Failed time : 19/04/25 15:07
+Current failed test : org.apache.commons.lang3.time.FastDateFormatTest::testLang645 | 19/04/25 15:07
+Thu Apr 25 15:07:56 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,820
+Failed time : 19/04/25 15:07
+=================================================
+Project : lang_26	start : 19/04/25 15:08
+Current failed test : org.apache.commons.lang3.time.FastDateFormatTest::testLang645 | 19/04/25 15:08
+Thu Apr 25 15:08:55 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,820
+=================================================
+Project : lang_26	start : 19/04/25 15:13
+Current failed test : org.apache.commons.lang3.time.FastDateFormatTest::testLang645 | 19/04/25 15:13
+Thu Apr 25 15:14:04 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,820
+Failed time : 19/04/25 15:14
+=================================================
+Project : lang_26	start : 19/04/25 15:14
+Current failed test : org.apache.commons.lang3.time.FastDateFormatTest::testLang645 | 19/04/25 15:14
+Thu Apr 25 15:14:42 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,820
+=================================================
+Project : lang_26	start : 19/04/25 15:14
+Current failed test : org.apache.commons.lang3.time.FastDateFormatTest::testLang645 | 19/04/25 15:15
+=================================================
+Project : lang_26	start : 19/04/25 15:15
+Thu Apr 25 15:15:19 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,820
+Current failed test : org.apache.commons.lang3.time.FastDateFormatTest::testLang645 | 19/04/25 15:15
+=================================================
+Project : lang_26	start : 19/04/25 15:15
+Thu Apr 25 15:15:39 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,820
+Current failed test : org.apache.commons.lang3.time.FastDateFormatTest::testLang645 | 19/04/25 15:15
+Thu Apr 25 15:15:56 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,820
+=================================================
+Project : lang_26	start : 19/04/25 15:16
+Current failed test : org.apache.commons.lang3.time.FastDateFormatTest::testLang645 | 19/04/25 15:16
+Thu Apr 25 15:16:30 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,820
+=================================================
+Project : lang_26	start : 19/04/25 15:16
+Current failed test : org.apache.commons.lang3.time.FastDateFormatTest::testLang645 | 19/04/25 15:16
+Thu Apr 25 15:17:09 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,820
+=================================================
+Project : lang_26	start : 19/04/25 15:19
+Current failed test : org.apache.commons.lang3.time.FastDateFormatTest::testLang645 | 19/04/25 15:19
+Thu Apr 25 15:19:37 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,820
+=================================================
+Project : lang_26	start : 19/04/25 15:23
+Current failed test : org.apache.commons.lang3.time.FastDateFormatTest::testLang645 | 19/04/25 15:23
+Thu Apr 25 15:23:30 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,820
+=================================================
+Project : lang_26	start : 19/04/25 15:24
+Current failed test : org.apache.commons.lang3.time.FastDateFormatTest::testLang645 | 19/04/25 15:24
+Thu Apr 25 15:24:59 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,820
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+Calendar c=new GregorianCalendar(mTimeZone,mLocale);
+c.setTime(date);
+return applyRules(c,new StringBuffer(mMaxLengthEstimate)).toString();
+
+Time : 19/04/25 15:25
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Similar code block : 2.9202773052221254 : [/home/joe/Simfixplusplus/simfix-automatic-build/d4j/projects/lang/lang_26_buggy/src/main/java/org/apache/commons/lang3/time/FastDateFormat.java=>0,0]
+Calendar c=new GregorianCalendar(mTimeZone,mLocale);
+c.setTime(date);
+return applyRules(c,new StringBuffer(mMaxLengthEstimate)).toString();
+
+Time : 19/04/25 15:25
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Original source code : [/home/joe/Simfixplusplus/simfix-automatic-build/d4j/projects/lang/lang_26_buggy/src/main/java/org/apache/commons/lang3/time/FastDateFormat.java=>820,822]
+Calendar c=new GregorianCalendar(mTimeZone);
+c.setTime(date);
+return applyRules(c,new StringBuffer(mMaxLengthEstimate)).toString();
+
+Time : 19/04/25 15:25
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Find a patch : [/home/joe/Simfixplusplus/simfix-automatic-build/d4j/projects/lang/lang_26_buggy/src/main/java/org/apache/commons/lang3/time/FastDateFormat.java=>820,822]
+Calendar c=new GregorianCalendar(mTimeZone,mLocale);
+c.setTime(date);
+return applyRules(c,new StringBuffer(mMaxLengthEstimate)).toString();
+
+Time : 19/04/25 15:25
+----------------------------------------
+Success time : 19/04/25 15:25
+=================================================
+Project : lang_26	start : 19/04/25 15:45
+Current failed test : org.apache.commons.lang3.time.FastDateFormatTest::testLang645 | 19/04/25 15:46
+Thu Apr 25 15:46:21 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,820
+Failed time : 19/04/25 15:46
+=================================================
+Project : lang_26	start : 19/04/25 15:49
+Current failed test : org.apache.commons.lang3.time.FastDateFormatTest::testLang645 | 19/04/25 15:49
+Thu Apr 25 15:49:34 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,820
+=================================================
+Project : lang_26	start : 19/04/25 15:49
+Current failed test : org.apache.commons.lang3.time.FastDateFormatTest::testLang645 | 19/04/25 15:49
+=================================================
+Project : lang_26	start : 19/04/25 15:51
+Current failed test : org.apache.commons.lang3.time.FastDateFormatTest::testLang645 | 19/04/25 15:51
+Thu Apr 25 15:51:39 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,820
+=================================================
+Project : lang_26	start : 19/04/25 15:52
+Current failed test : org.apache.commons.lang3.time.FastDateFormatTest::testLang645 | 19/04/25 15:52
+Thu Apr 25 15:52:59 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,820
+=================================================
+Project : lang_26	start : 19/04/25 15:53
+Current failed test : org.apache.commons.lang3.time.FastDateFormatTest::testLang645 | 19/04/25 15:53
+Thu Apr 25 15:53:34 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,820
+=================================================
+Project : lang_26	start : 19/04/25 15:53
+Current failed test : org.apache.commons.lang3.time.FastDateFormatTest::testLang645 | 19/04/25 15:53
+Thu Apr 25 15:54:12 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,820
+=================================================
+Project : lang_26	start : 19/04/25 15:54
+Current failed test : org.apache.commons.lang3.time.FastDateFormatTest::testLang645 | 19/04/25 15:54
+Thu Apr 25 15:54:55 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,820
+=================================================
+Project : lang_26	start : 19/04/25 15:55
+Current failed test : org.apache.commons.lang3.time.FastDateFormatTest::testLang645 | 19/04/25 15:55
+Thu Apr 25 15:55:59 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,820
+=================================================
+Project : lang_26	start : 19/04/25 16:00
+Current failed test : org.apache.commons.lang3.time.FastDateFormatTest::testLang645 | 19/04/25 16:00
+Thu Apr 25 16:01:09 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,820
+=================================================
+Project : lang_26	start : 19/04/25 16:03
+Current failed test : org.apache.commons.lang3.time.FastDateFormatTest::testLang645 | 19/04/25 16:03
+Thu Apr 25 16:03:46 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,820
+=================================================
+Project : lang_26	start : 19/04/25 16:03
+Current failed test : org.apache.commons.lang3.time.FastDateFormatTest::testLang645 | 19/04/25 16:03
+=================================================
+Project : lang_26	start : 19/04/25 16:04
+Current failed test : org.apache.commons.lang3.time.FastDateFormatTest::testLang645 | 19/04/25 16:04
+Thu Apr 25 16:04:09 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,820
+Thu Apr 25 16:04:24 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,820
+=================================================
+Project : lang_26	start : 19/04/25 16:12
+=================================================
+Project : lang_26	start : 19/04/25 16:12
+Current failed test : org.apache.commons.lang3.time.FastDateFormatTest::testLang645 | 19/04/25 16:12
+Current failed test : org.apache.commons.lang3.time.FastDateFormatTest::testLang645 | 19/04/25 16:12
+Thu Apr 25 16:12:20 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,820
+Failed time : 19/04/25 16:12
+Thu Apr 25 16:12:22 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,820
+=================================================
+Project : lang_26	start : 19/04/25 16:12
+Current failed test : org.apache.commons.lang3.time.FastDateFormatTest::testLang645 | 19/04/25 16:12
+Thu Apr 25 16:12:52 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,820
+Failed time : 19/04/25 16:12
+=================================================
+Project : lang_26	start : 19/04/25 16:17
+Current failed test : org.apache.commons.lang3.time.FastDateFormatTest::testLang645 | 19/04/25 16:17
+Thu Apr 25 16:17:32 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,820
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+Calendar c=new GregorianCalendar(mTimeZone,mLocale);
+c.setTime(date);
+return applyRules(c,new StringBuffer(mMaxLengthEstimate)).toString();
+
+Time : 19/04/25 16:17
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Similar code block : 2.9202773052221254 : [/home/joe/Simfixplusplus/simfix-automatic-build/d4j/projects/lang/lang_26_buggy/src/main/java/org/apache/commons/lang3/time/FastDateFormat.java=>0,0]
+Calendar c=new GregorianCalendar(mTimeZone,mLocale);
+c.setTime(date);
+return applyRules(c,new StringBuffer(mMaxLengthEstimate)).toString();
+
+Time : 19/04/25 16:17
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Original source code : [/home/joe/Simfixplusplus/simfix-automatic-build/d4j/projects/lang/lang_26_buggy/src/main/java/org/apache/commons/lang3/time/FastDateFormat.java=>820,822]
+Calendar c=new GregorianCalendar(mTimeZone);
+c.setTime(date);
+return applyRules(c,new StringBuffer(mMaxLengthEstimate)).toString();
+
+Time : 19/04/25 16:17
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Find a patch : [/home/joe/Simfixplusplus/simfix-automatic-build/d4j/projects/lang/lang_26_buggy/src/main/java/org/apache/commons/lang3/time/FastDateFormat.java=>820,822]
+Calendar c=new GregorianCalendar(mTimeZone,mLocale);
+c.setTime(date);
+return applyRules(c,new StringBuffer(mMaxLengthEstimate)).toString();
+
+Time : 19/04/25 16:17
+----------------------------------------
+Success time : 19/04/25 16:17
+=================================================
+Project : lang_26	start : 19/04/25 16:19
+Current failed test : org.apache.commons.lang3.time.FastDateFormatTest::testLang645 | 19/04/25 16:20
+Thu Apr 25 16:20:17 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,820
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+Calendar c=new GregorianCalendar(mTimeZone,mLocale);
+c.setTime(date);
+return applyRules(c,new StringBuffer(mMaxLengthEstimate)).toString();
+
+Time : 19/04/25 16:20
+----------------------------------------
+Failed time : 19/04/25 16:20
+=================================================
+Project : lang_26	start : 19/04/25 16:21
+Current failed test : org.apache.commons.lang3.time.FastDateFormatTest::testLang645 | 19/04/25 16:21
+Thu Apr 25 16:21:49 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,820
+Failed time : 19/04/25 16:21
+=================================================
+Project : lang_26	start : 19/04/25 16:23
+Current failed test : org.apache.commons.lang3.time.FastDateFormatTest::testLang645 | 19/04/25 16:23
+Thu Apr 25 16:24:00 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,820
+Failed time : 19/04/25 16:24
+=================================================
+Project : lang_26	start : 19/04/25 16:25
+Current failed test : org.apache.commons.lang3.time.FastDateFormatTest::testLang645 | 19/04/25 16:25
+Thu Apr 25 16:25:59 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,820
+Failed time : 19/04/25 16:25
+=================================================
+Project : lang_26	start : 19/04/25 16:28
+Current failed test : org.apache.commons.lang3.time.FastDateFormatTest::testLang645 | 19/04/25 16:28
+Thu Apr 25 16:29:20 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,820
+Failed time : 19/04/25 16:29
+=================================================
+Project : lang_26	start : 19/04/25 16:34
+Current failed test : org.apache.commons.lang3.time.FastDateFormatTest::testLang645 | 19/04/25 16:34
+=================================================
+Project : lang_26	start : 19/04/25 16:35
+Current failed test : org.apache.commons.lang3.time.FastDateFormatTest::testLang645 | 19/04/25 16:35
+Thu Apr 25 16:35:28 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,820
+Failed time : 19/04/25 16:35
+=================================================
+Project : lang_26	start : 19/04/25 16:36
+Current failed test : org.apache.commons.lang3.time.FastDateFormatTest::testLang645 | 19/04/25 16:36
+Thu Apr 25 16:36:29 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,820
+Failed time : 19/04/25 16:36
+=================================================
+Project : lang_26	start : 19/04/25 16:36
+Current failed test : org.apache.commons.lang3.time.FastDateFormatTest::testLang645 | 19/04/25 16:37
+Thu Apr 25 16:37:17 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,820
+=================================================
+Project : lang_26	start : 19/04/25 16:39
+Current failed test : org.apache.commons.lang3.time.FastDateFormatTest::testLang645 | 19/04/25 16:39
+Thu Apr 25 16:39:31 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,820
+=================================================
+Project : lang_26	start : 19/04/25 16:42
+Current failed test : org.apache.commons.lang3.time.FastDateFormatTest::testLang645 | 19/04/25 16:42
+Thu Apr 25 16:42:57 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,820
+=================================================
+Project : lang_26	start : 19/04/25 16:47
+Current failed test : org.apache.commons.lang3.time.FastDateFormatTest::testLang645 | 19/04/25 16:47
+Thu Apr 25 16:47:19 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,820
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+Calendar c=new GregorianCalendar(mTimeZone,mLocale);
+c.setTime(date);
+return applyRules(c,new StringBuffer(mMaxLengthEstimate)).toString();
+
+Time : 19/04/25 16:47
+----------------------------------------
+Failed time : 19/04/25 16:47
+=================================================
+Project : lang_26	start : 19/04/25 16:50
+Current failed test : org.apache.commons.lang3.time.FastDateFormatTest::testLang645 | 19/04/25 16:50
+Thu Apr 25 16:50:46 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,820
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+Calendar c=new GregorianCalendar(mTimeZone,mLocale);
+c.setTime(date);
+return applyRules(c,new StringBuffer(mMaxLengthEstimate)).toString();
+
+Time : 19/04/25 16:51
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Similar code block : 2.713714095390005 : [/home/joe/Simfixplusplus/simfix-automatic-build/d4j/projects/lang/lang_26_buggy/src/main/java/org/apache/commons/lang3/time/FastDateFormat.java=>0,0]
+Calendar c=Calendar.getInstance(mTimeZone,mLocale);
+c.setTime(date);
+return applyRules(c,new StringBuffer(mMaxLengthEstimate)).toString();
+
+Time : 19/04/25 16:51
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Original source code : [/home/joe/Simfixplusplus/simfix-automatic-build/d4j/projects/lang/lang_26_buggy/src/main/java/org/apache/commons/lang3/time/FastDateFormat.java=>820,822]
+Calendar c=new GregorianCalendar(mTimeZone);
+c.setTime(date);
+return applyRules(c,new StringBuffer(mMaxLengthEstimate)).toString();
+
+Time : 19/04/25 16:51
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Find a patch : [/home/joe/Simfixplusplus/simfix-automatic-build/d4j/projects/lang/lang_26_buggy/src/main/java/org/apache/commons/lang3/time/FastDateFormat.java=>820,822]
+Calendar c=new GregorianCalendar(mTimeZone,mLocale);
+c.setTime(date);
+return applyRules(c,new StringBuffer(mMaxLengthEstimate)).toString();
+
+Time : 19/04/25 16:51
+----------------------------------------
+Success time : 19/04/25 16:51
+=================================================
+Project : lang_26	start : 19/04/25 16:53
+Current failed test : org.apache.commons.lang3.time.FastDateFormatTest::testLang645 | 19/04/25 16:53
+Thu Apr 25 16:53:51 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,820
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+Calendar c=new GregorianCalendar(mTimeZone,mLocale);
+c.setTime(date);
+return applyRules(c,new StringBuffer(mMaxLengthEstimate)).toString();
+
+Time : 19/04/25 16:54
+----------------------------------------
+Failed time : 19/04/25 16:54
+=================================================
+Project : lang_26	start : 19/04/25 16:54
+Current failed test : org.apache.commons.lang3.time.FastDateFormatTest::testLang645 | 19/04/25 16:54
+Thu Apr 25 16:54:45 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,820
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+Calendar c=new GregorianCalendar(mTimeZone,mLocale);
+c.setTime(date);
+return applyRules(c,new StringBuffer(mMaxLengthEstimate)).toString();
+
+Time : 19/04/25 16:54
+----------------------------------------
+Failed time : 19/04/25 16:55
+=================================================
+Project : lang_26	start : 19/04/25 17:00
+Current failed test : org.apache.commons.lang3.time.FastDateFormatTest::testLang645 | 19/04/25 17:00
+Thu Apr 25 17:00:54 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,820
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+Calendar c=new GregorianCalendar(mTimeZone,mLocale);
+c.setTime(date);
+return applyRules(c,new StringBuffer(mMaxLengthEstimate)).toString();
+
+Time : 19/04/25 17:01
+----------------------------------------
+Failed time : 19/04/25 17:01
+=================================================
+Project : lang_26	start : 19/04/25 17:02
+Current failed test : org.apache.commons.lang3.time.FastDateFormatTest::testLang645 | 19/04/25 17:02
+Thu Apr 25 17:02:20 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,820
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+Calendar c=new GregorianCalendar(mTimeZone,mLocale);
+c.setTime(date);
+return applyRules(c,new StringBuffer(mMaxLengthEstimate)).toString();
+
+Time : 19/04/25 17:02
+----------------------------------------
+Failed time : 19/04/25 17:03
+=================================================
+Project : lang_26	start : 19/04/25 17:04
+Current failed test : org.apache.commons.lang3.time.FastDateFormatTest::testLang645 | 19/04/25 17:04
+Thu Apr 25 17:05:14 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,820
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+Calendar c=new GregorianCalendar(mTimeZone,mLocale);
+c.setTime(date);
+return applyRules(c,new StringBuffer(mMaxLengthEstimate)).toString();
+
+Time : 19/04/25 17:05
+----------------------------------------
+=================================================
+Project : lang_26	start : 19/04/25 17:06
+Current failed test : org.apache.commons.lang3.time.FastDateFormatTest::testLang645 | 19/04/25 17:06
+Thu Apr 25 17:07:18 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,820
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+Calendar c=new GregorianCalendar(mTimeZone,mLocale);
+c.setTime(date);
+return applyRules(c,new StringBuffer(mMaxLengthEstimate)).toString();
+
+Time : 19/04/25 17:07
+----------------------------------------
+Failed time : 19/04/25 17:07
+=================================================
+Project : lang_26	start : 19/04/25 17:08
+Current failed test : org.apache.commons.lang3.time.FastDateFormatTest::testLang645 | 19/04/25 17:08
+Thu Apr 25 17:08:44 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,820
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+Calendar c=new GregorianCalendar(mTimeZone,mLocale);
+c.setTime(date);
+return applyRules(c,new StringBuffer(mMaxLengthEstimate)).toString();
+
+Time : 19/04/25 17:08
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Similar code block : 2.9202773052221254 : [/home/joe/Simfixplusplus/simfix-automatic-build/d4j/projects/lang/lang_26_buggy/src/main/java/org/apache/commons/lang3/time/FastDateFormat.java=>0,0]
+Calendar c=new GregorianCalendar(mTimeZone,mLocale);
+c.setTime(date);
+return applyRules(c,new StringBuffer(mMaxLengthEstimate)).toString();
+
+Time : 19/04/25 17:09
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Original source code : [/home/joe/Simfixplusplus/simfix-automatic-build/d4j/projects/lang/lang_26_buggy/src/main/java/org/apache/commons/lang3/time/FastDateFormat.java=>820,822]
+Calendar c=new GregorianCalendar(mTimeZone);
+c.setTime(date);
+return applyRules(c,new StringBuffer(mMaxLengthEstimate)).toString();
+
+Time : 19/04/25 17:09
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Find a patch : [/home/joe/Simfixplusplus/simfix-automatic-build/d4j/projects/lang/lang_26_buggy/src/main/java/org/apache/commons/lang3/time/FastDateFormat.java=>820,822]
+Calendar c=new GregorianCalendar(mTimeZone,mLocale);
+c.setTime(date);
+return applyRules(c,new StringBuffer(mMaxLengthEstimate)).toString();
+
+Time : 19/04/25 17:09
+----------------------------------------
+Success time : 19/04/25 17:09
+=================================================
+Project : lang_26	start : 19/04/25 17:09
+Current failed test : org.apache.commons.lang3.time.FastDateFormatTest::testLang645 | 19/04/25 17:09
+Thu Apr 25 17:10:05 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,820
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+Calendar c=new GregorianCalendar(mTimeZone,mLocale);
+c.setTime(date);
+return applyRules(c,new StringBuffer(mMaxLengthEstimate)).toString();
+
+Time : 19/04/25 17:10
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Similar code block : 2.9202773052221254 : [/home/joe/Simfixplusplus/simfix-automatic-build/d4j/projects/lang/lang_26_buggy/src/main/java/org/apache/commons/lang3/time/FastDateFormat.java=>0,0]
+Calendar c=new GregorianCalendar(mTimeZone,mLocale);
+c.setTime(date);
+return applyRules(c,new StringBuffer(mMaxLengthEstimate)).toString();
+
+Time : 19/04/25 17:10
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Original source code : [/home/joe/Simfixplusplus/simfix-automatic-build/d4j/projects/lang/lang_26_buggy/src/main/java/org/apache/commons/lang3/time/FastDateFormat.java=>820,822]
+Calendar c=new GregorianCalendar(mTimeZone);
+c.setTime(date);
+return applyRules(c,new StringBuffer(mMaxLengthEstimate)).toString();
+
+Time : 19/04/25 17:10
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Find a patch : [/home/joe/Simfixplusplus/simfix-automatic-build/d4j/projects/lang/lang_26_buggy/src/main/java/org/apache/commons/lang3/time/FastDateFormat.java=>820,822]
+Calendar c=new GregorianCalendar(mTimeZone,mLocale);
+c.setTime(date);
+return applyRules(c,new StringBuffer(mMaxLengthEstimate)).toString();
+
+Time : 19/04/25 17:10
+----------------------------------------
+Success time : 19/04/25 17:10
+=================================================
+Project : lang_26	start : 19/04/25 17:11
+Current failed test : org.apache.commons.lang3.time.FastDateFormatTest::testLang645 | 19/04/25 17:11
+Thu Apr 25 17:11:50 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,820
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+Calendar c=new GregorianCalendar(mTimeZone,mLocale);
+c.setTime(date);
+return applyRules(c,new StringBuffer(mMaxLengthEstimate)).toString();
+
+Time : 19/04/25 17:12
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Similar code block : 2.713714095390005 : [/home/joe/Simfixplusplus/simfix-automatic-build/d4j/projects/lang/lang_26_buggy/src/main/java/org/apache/commons/lang3/time/FastDateFormat.java=>0,0]
+Calendar c=Calendar.getInstance(mTimeZone,mLocale);
+c.setTime(date);
+return applyRules(c,new StringBuffer(mMaxLengthEstimate)).toString();
+
+Time : 19/04/25 17:12
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Original source code : [/home/joe/Simfixplusplus/simfix-automatic-build/d4j/projects/lang/lang_26_buggy/src/main/java/org/apache/commons/lang3/time/FastDateFormat.java=>820,822]
+Calendar c=new GregorianCalendar(mTimeZone);
+c.setTime(date);
+return applyRules(c,new StringBuffer(mMaxLengthEstimate)).toString();
+
+Time : 19/04/25 17:12
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Find a patch : [/home/joe/Simfixplusplus/simfix-automatic-build/d4j/projects/lang/lang_26_buggy/src/main/java/org/apache/commons/lang3/time/FastDateFormat.java=>820,822]
+Calendar c=new GregorianCalendar(mTimeZone,mLocale);
+c.setTime(date);
+return applyRules(c,new StringBuffer(mMaxLengthEstimate)).toString();
+
+Time : 19/04/25 17:12
+----------------------------------------
+Success time : 19/04/25 17:12
+=================================================
+Project : lang_26	start : 19/04/25 17:14
+Current failed test : org.apache.commons.lang3.time.FastDateFormatTest::testLang645 | 19/04/25 17:14
+Thu Apr 25 17:14:39 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,820
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+Calendar c=new GregorianCalendar(mTimeZone,mLocale);
+c.setTime(date);
+return applyRules(c,new StringBuffer(mMaxLengthEstimate)).toString();
+
+Time : 19/04/25 17:14
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Similar code block : 2.713714095390005 : [/home/joe/Simfixplusplus/simfix-automatic-build/d4j/projects/lang/lang_26_buggy/src/main/java/org/apache/commons/lang3/time/FastDateFormat.java=>0,0]
+Calendar c=Calendar.getInstance(mTimeZone,mLocale);
+c.setTime(date);
+return applyRules(c,new StringBuffer(mMaxLengthEstimate)).toString();
+
+Time : 19/04/25 17:15
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Original source code : [/home/joe/Simfixplusplus/simfix-automatic-build/d4j/projects/lang/lang_26_buggy/src/main/java/org/apache/commons/lang3/time/FastDateFormat.java=>820,822]
+Calendar c=new GregorianCalendar(mTimeZone);
+c.setTime(date);
+return applyRules(c,new StringBuffer(mMaxLengthEstimate)).toString();
+
+Time : 19/04/25 17:15
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Find a patch : [/home/joe/Simfixplusplus/simfix-automatic-build/d4j/projects/lang/lang_26_buggy/src/main/java/org/apache/commons/lang3/time/FastDateFormat.java=>820,822]
+Calendar c=new GregorianCalendar(mTimeZone,mLocale);
+c.setTime(date);
+return applyRules(c,new StringBuffer(mMaxLengthEstimate)).toString();
+
+Time : 19/04/25 17:15
+----------------------------------------
+Success time : 19/04/25 17:15
+=================================================
+Project : lang_26	start : 19/04/25 17:15
+Current failed test : org.apache.commons.lang3.time.FastDateFormatTest::testLang645 | 19/04/25 17:15
+Thu Apr 25 17:15:46 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,820
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+Calendar c=new GregorianCalendar(mTimeZone,mLocale);
+c.setTime(date);
+return applyRules(c,new StringBuffer(mMaxLengthEstimate)).toString();
+
+Time : 19/04/25 17:15
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Similar code block : 2.713714095390005 : [/home/joe/Simfixplusplus/simfix-automatic-build/d4j/projects/lang/lang_26_buggy/src/main/java/org/apache/commons/lang3/time/FastDateFormat.java=>0,0]
+Calendar c=Calendar.getInstance(mTimeZone,mLocale);
+c.setTime(date);
+return applyRules(c,new StringBuffer(mMaxLengthEstimate)).toString();
+
+Time : 19/04/25 17:16
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Original source code : [/home/joe/Simfixplusplus/simfix-automatic-build/d4j/projects/lang/lang_26_buggy/src/main/java/org/apache/commons/lang3/time/FastDateFormat.java=>820,822]
+Calendar c=new GregorianCalendar(mTimeZone);
+c.setTime(date);
+return applyRules(c,new StringBuffer(mMaxLengthEstimate)).toString();
+
+Time : 19/04/25 17:16
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Find a patch : [/home/joe/Simfixplusplus/simfix-automatic-build/d4j/projects/lang/lang_26_buggy/src/main/java/org/apache/commons/lang3/time/FastDateFormat.java=>820,822]
+Calendar c=new GregorianCalendar(mTimeZone,mLocale);
+c.setTime(date);
+return applyRules(c,new StringBuffer(mMaxLengthEstimate)).toString();
+
+Time : 19/04/25 17:16
+----------------------------------------
+Success time : 19/04/25 17:16
+=================================================
+Project : lang_26	start : 19/04/25 17:18
+Current failed test : org.apache.commons.lang3.time.FastDateFormatTest::testLang645 | 19/04/25 17:18
+Thu Apr 25 17:18:44 EDT 2019 org.apache.commons.lang3.time.FastDateFormat,820
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+Calendar c=new GregorianCalendar(mTimeZone,mLocale);
+c.setTime(date);
+return applyRules(c,new StringBuffer(mMaxLengthEstimate)).toString();
+
+Time : 19/04/25 17:18
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Similar code block : 2.713714095390005 : [/home/joe/Simfixplusplus/simfix-automatic-build/d4j/projects/lang/lang_26_buggy/src/main/java/org/apache/commons/lang3/time/FastDateFormat.java=>0,0]
+Calendar c=Calendar.getInstance(mTimeZone,mLocale);
+c.setTime(date);
+return applyRules(c,new StringBuffer(mMaxLengthEstimate)).toString();
+
+Time : 19/04/25 17:19
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Original source code : [/home/joe/Simfixplusplus/simfix-automatic-build/d4j/projects/lang/lang_26_buggy/src/main/java/org/apache/commons/lang3/time/FastDateFormat.java=>820,822]
+Calendar c=new GregorianCalendar(mTimeZone);
+c.setTime(date);
+return applyRules(c,new StringBuffer(mMaxLengthEstimate)).toString();
+
+Time : 19/04/25 17:19
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Find a patch : [/home/joe/Simfixplusplus/simfix-automatic-build/d4j/projects/lang/lang_26_buggy/src/main/java/org/apache/commons/lang3/time/FastDateFormat.java=>820,822]
+Calendar c=new GregorianCalendar(mTimeZone,mLocale);
+c.setTime(date);
+return applyRules(c,new StringBuffer(mMaxLengthEstimate)).toString();
+
+Time : 19/04/25 17:19
+----------------------------------------
+Success time : 19/04/25 17:19

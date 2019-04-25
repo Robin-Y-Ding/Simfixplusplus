@@ -68,7 +68,10 @@ public class SimpleFilter {
 	}
 	
 	public List<Pair<CodeBlock, Double>> filter(String srcPath, double guard){
-		List<String> files = JavaFile.ergodic(srcPath, new ArrayList<String>());
+		//List<String> files = JavaFile.ergodic(srcPath, new ArrayList<String>());
+		//System.out.println(files);
+		List<String> files = new ArrayList<String>();
+		files.add("/home/joe/lang_test/FastDateFormat.java");
 		List<Pair<CodeBlock, Double>> filtered = new ArrayList<>();
 		CollectorVisitor collectorVisitor = new CollectorVisitor();
 		for(String file : files){

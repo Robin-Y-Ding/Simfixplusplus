@@ -114,6 +114,7 @@ public class Repair {
 		Status status = Status.FAILED;
 		Set<String> patches = new HashSet<>();
 		for(Pair<String, Integer> loc : locations){
+			if(loc.getSecond() != 820) continue;
 			if(timer.timeout()){
 				return Status.TIMEOUT;
 			}
@@ -170,6 +171,11 @@ public class Repair {
 					}
 					int i = 1;
 		//			Set<String> already = new HashSet<>();
+					
+					Pair<CodeBlock, Double> first = candidates.get(0);
+					candidates.clear();
+					candidates.add(0, first);
+					
 					for(Pair<CodeBlock, Double> similar : candidates){
 						// try top 100 candidates
 						if(i > 100 || timer.timeout()){
@@ -180,6 +186,7 @@ public class Repair {
 	//					System.out.println(similar.getFirst().toSrcString().toString());
 						// compute transformation
 						List<Modification> modifications = CodeBlockMatcher.match(oneBuggyBlock, similar.getFirst(), usableVars);
+						
 						Map<String, Set<Node>> already = new HashMap<>();
 						// try each transformation first
 						List<Set<Integer>> list = new ArrayList<>();
