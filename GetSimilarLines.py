@@ -54,6 +54,7 @@ def get_similar_loc(org_code_file, N):
 		raise ValueError("Cannot find buggy code!")
 
 	N = int(N)
+	
 	org_code = open(org_code_file, "r").readline().strip()
 	tokens_string = ""
 	try:
@@ -65,17 +66,19 @@ def get_similar_loc(org_code_file, N):
 		sys.exit(1)
 	
 	org_code = tokens_string
-	print (org_code)
+	#For test
+	#org_code = 'return " title=\"" + toolTipText'
+	#print (org_code)
 
 	'''
 	if len(line) > 1:
 		print ("We only process one line bug for now.")
 	'''
-	#print (org_code)
+	print (org_code)
 
 	buggy_search_space = '/home/robin/Documents/buggy.token'
 	patch_search_space = '/home/robin/Documents/patch.token'
-	path_search_space = '/home/robin/Documents/corresponding_path.txt'
+	path_search_space = '/home/robin/Documents/new_paths.txt'
 	patch_storage = "/tmp/PatchesForSimFix++"
 
 	buggy_lines = open(buggy_search_space, 'r').readlines()
@@ -105,10 +108,13 @@ def get_similar_loc(org_code_file, N):
 
 	path_list = []
 	[path_list.append(file_path_lines[t[0]]) for t in final_list]
+	[print(buggy_lines[t[0]]) for t in final_list]
 
 	for path in path_list:
+		path = path.strip()
+		print(path)
 		if not os.path.isfile(path):
-			#print ("Error: no such file!")
+			print ("Error: no such file: ", path)
 			continue
 		else:
 			if not os.path.exists(patch_storage):
@@ -116,15 +122,17 @@ def get_similar_loc(org_code_file, N):
 					os.system('mkdir /tmp/PatchesForSimFix++')
 				except Exception as e:
 					print (e)
-			else:
-				cmd = "cp " + path + " " + patch_storage
-				try:
-					os.system(cmd)
-				except Exception as e:
-					print (e)
+			# This line is just for using my wrongly named external storage, do not reuse the code with this line
+			path = path.replace('/external storage/', '/external\ storage/')
+			#print (path)
+			cmd = "cp " + path + " " + patch_storage
+			try:
+				os.system(cmd)
+			except Exception as e:
+				print (e)
 
 	return patch_storage
 
 
-print (get_similar_loc(sys.argv[1], sys.argv[2]))
-
+get_similar_loc(sys.argv[1], sys.argv[2])
+#print(os.path.isfile('/media/robin/external storage/Defects4JPatches/ProjectFiles/jfree_jfreechart/202/child/src_main_java_org_jfree_data_time_Month.java'))
