@@ -1,0 +1,8 @@
+=================================================
+Project : math_1	start : 19/04/19 10:42
+Current failed test : org.apache.commons.math3.fraction.BigFractionTest::testDigitLimitConstructor_purify_1 | 19/04/19 10:43
+Fri Apr 19 10:43:31 EDT 2019 org.apache.commons.math3.exception.MathIllegalStateException,80
+Fri Apr 19 10:43:38 EDT 2019 org.apache.commons.math3.exception.MathIllegalStateException,86
+Fri Apr 19 10:43:42 EDT 2019 org.apache.commons.math3.exception.util.LocalizedFormats,382
+=================================================
+Project : math_1	start : 19/04/19 10:45

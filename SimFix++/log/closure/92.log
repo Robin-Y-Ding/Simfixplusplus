@@ -1,0 +1,40 @@
+=================================================
+Project : closure_92	start : 19/04/22 00:48
+Current failed test : com.google.javascript.jscomp.ProcessClosurePrimitivesTest::testProvideInIndependentModules4 | 19/04/22 00:48
+Mon Apr 22 00:50:25 EDT 2019 Mon Apr 22 00:50:25 EDT 2019 : com.google.javascript.rhino.Node,175=>Find no block
+Mon Apr 22 00:50:25 EDT 2019 com.google.javascript.rhino.Node,195
+Mon Apr 22 00:50:36 EDT 2019 com.google.javascript.rhino.Node,220
+Mon Apr 22 00:50:47 EDT 2019 com.google.javascript.rhino.Node,222
+Mon Apr 22 00:50:57 EDT 2019 com.google.javascript.rhino.Node,225
+Mon Apr 22 00:51:06 EDT 2019 com.google.javascript.rhino.Node,228
+Mon Apr 22 00:51:17 EDT 2019 com.google.javascript.rhino.Node,843
+Mon Apr 22 00:51:25 EDT 2019 com.google.javascript.rhino.Node,844
+Mon Apr 22 00:51:25 EDT 2019 com.google.javascript.rhino.Node,845
+Mon Apr 22 00:51:25 EDT 2019 com.google.javascript.rhino.Node,848
+Mon Apr 22 00:51:26 EDT 2019 com.google.javascript.rhino.Node,849
+Mon Apr 22 00:51:26 EDT 2019 com.google.javascript.rhino.Node,850
+Mon Apr 22 00:51:26 EDT 2019 com.google.javascript.rhino.Node,851
+Mon Apr 22 00:51:26 EDT 2019 com.google.javascript.rhino.Node,854
+Mon Apr 22 00:51:26 EDT 2019 com.google.javascript.rhino.Node,855
+Mon Apr 22 00:51:26 EDT 2019 com.google.javascript.rhino.Node,908
+Mon Apr 22 00:51:29 EDT 2019 com.google.javascript.rhino.Node,916
+Mon Apr 22 00:51:33 EDT 2019 com.google.javascript.rhino.Node,917
+Mon Apr 22 00:51:33 EDT 2019 com.google.javascript.rhino.Node,918
+Mon Apr 22 00:51:33 EDT 2019 com.google.javascript.rhino.Node,929
+Mon Apr 22 00:53:42 EDT 2019 com.google.javascript.rhino.Node,930
+Mon Apr 22 00:53:42 EDT 2019 com.google.javascript.rhino.Node,931
+Mon Apr 22 00:53:45 EDT 2019 com.google.javascript.rhino.Node,932
+Mon Apr 22 00:53:45 EDT 2019 com.google.javascript.rhino.Node,933
+Mon Apr 22 00:53:45 EDT 2019 com.google.javascript.rhino.Node,941
+Mon Apr 22 00:53:45 EDT 2019 com.google.javascript.rhino.Node,963
+Mon Apr 22 00:53:45 EDT 2019 com.google.javascript.rhino.Node,964
+Mon Apr 22 00:53:45 EDT 2019 com.google.javascript.rhino.Node,965
+Mon Apr 22 00:53:45 EDT 2019 com.google.javascript.rhino.Node,966
+Mon Apr 22 00:53:45 EDT 2019 com.google.javascript.rhino.Node,967
+Mon Apr 22 00:53:45 EDT 2019 com.google.javascript.rhino.Node,971
+Mon Apr 22 00:53:45 EDT 2019 com.google.javascript.rhino.Node,972
+Mon Apr 22 00:53:49 EDT 2019 com.google.javascript.rhino.Node,973
+Mon Apr 22 00:53:49 EDT 2019 com.google.javascript.rhino.Node,974
+Mon Apr 22 00:54:22 EDT 2019 com.google.javascript.rhino.Node,975
+Mon Apr 22 00:54:22 EDT 2019 com.google.javascript.rhino.Node,976
+Mon Apr 22 00:54:54 EDT 2019 com.google.javascript.rhino.Node,977
