@@ -118,6 +118,11 @@ public class Repair {
 		Status status = Status.FAILED;
 		Set<String> patches = new HashSet<>();
 		for(Pair<String, Integer> loc : locations){
+			//The following code is for speeding up when doing the demo
+			if (loc.getSecond()!=820)
+			{
+				continue;
+			}
 			if(timer.timeout()){
 				return Status.TIMEOUT;
 			}
@@ -159,8 +164,8 @@ public class Repair {
 				// break point for simfix and simfix ++
 				if(Constant.PROJ_TECH.equals("patch")){
 					System.out.println("Entered Patch Path");
-					System.out.println("File: " + file);
-					System.out.println("Line Number: " + loc.getSecond());
+					//System.out.println("File: " + file);
+					//System.out.println("Line Number: " + loc.getSecond());
 					String b_line;
 					try (BufferedReader br = new BufferedReader(new FileReader(file))) {
 					    for (int i = 0; i < loc.getSecond() - 1; i++)
@@ -171,20 +176,20 @@ public class Repair {
 					try (PrintWriter out = new PrintWriter("/tmp/buggy_code.txt")) {
 					    out.println(b_line);
 					}
-					Process p = Runtime.getRuntime().exec("python3 /home/robin/Documents/GetSimilarLines.py /tmp/buggy_code.txt 10");
+					Process p = Runtime.getRuntime().exec("python3 /home/robin/Documents/GetSimilarLines.py /tmp/buggy_code.txt 50");
 					BufferedReader in = new BufferedReader(new InputStreamReader(p.getInputStream()));
-					String patch_src = "";
+					String debug_info = "";
 					String line = in.readLine();
 					
 					while (line != null) {
-						patch_src = patch_src + line;
+						debug_info = debug_info + line + "\n";
 						line = in.readLine();
 					}
-					System.out.println("value is : "+ patch_src);
+					System.out.println("value is : "+ debug_info);
 					
 					File f = new File("/tmp/buggy_code.txt");
 					f.delete();
-					src = patch_src;
+					src = "/tmp/PatchesForSimFix++";
 					
 				} 
 				else if(Constant.PROJ_TECH.equals("similar")){
