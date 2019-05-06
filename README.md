@@ -1,6 +1,14 @@
 # Simfixplusplus
 by Robin Ding and Joe Huang
 
+![Simfix++ Diagram](https://github.com/Robin-Y-Ding/Simfixplusplus/blob/master/simfixpp_diagram.png)
+
+We give our tool a name of “SimFix++” because the tool is developed based on the SimFix tool. 
+
+We designed an automatic bug fixing tool that takes a different approach to utilize the existing patch. Previously, SimFix uses the existing patches by applying those patches to reduce the search space of others produced from similar code. This is beneficial that common bug fixing modification behavior will be prioritized and could prevent the unlikely fix. However, only the fixed patch codes are used to determine if the modification is applicable and any relationship between the patch’s buggy code and current buggy code is not captured.   
+
+To address this issue, we want to take an alternative approach and use the existing patch differently. Instead of finding the modifications in patches, we will compare the current buggy code with the patch buggy code. For every patch buggy code, we will calculate a similarity score with the current buggy code. Finally, for top k similar patch buggy code, we will utilize its patch to fix the current buggy code.
+
 ## Setup
 This section includes the basic setup to run Simfix++. More details can be found in the link provided.
 - Ubuntu 16.04.2 LTS
