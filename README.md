@@ -1,7 +1,7 @@
 # Simfixplusplus
 by Robin Ding (yd2447@columbia.edu) and Joe Huang (jch2220@columbia.edu)
 
-This is a course project for the excellent research-based course, COMS6156 Topics in Software Engineering, given by Prof. Gail Kaiser in Columbia University. This project is done under the supervision of Prof. Baishakhi Ray and Prof. Gail Kaiser, and we appreciate the advise and help from Saikat Chakraborty.
+This is a course project for the excellent research-based course, COMS6156 Topics in Software Engineering, given by [Prof. Gail Kaiser](http://www.cs.columbia.edu/~kaiser/) in Columbia University. This project is done under the supervision of Prof. [Baishakhi Ray](http://rayb.info/) and [Prof. Gail Kaiser](http://www.cs.columbia.edu/~kaiser/), and we appreciate the advise and help from Saikat Chakraborty.
 
 We give our tool a name of “SimFix++” because the tool is developed based on the SimFix tool. The original tool please refer here: https://github.com/xgdsmileboy/SimFix. Their excellent paper can be referred here: https://xgdsmileboy.github.io/files/paper/simfix-issta18.pdf. Our project is just for research and fun, and we thank SimFix team for their significant contribution to automated program repair field.
 
