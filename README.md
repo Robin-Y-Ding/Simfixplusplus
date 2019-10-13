@@ -1,9 +1,10 @@
 # Simfixplusplus
 by Robin Ding and Joe Huang
+This is a course project for the excellent research-based course, COMS6156 Topics in Software Engineering, given by Prof. Gail Kaiser in Columbia.
 
 ![Simfix++ Diagram](https://github.com/Robin-Y-Ding/Simfixplusplus/blob/master/simfixpp_diagram.png)
 
-We give our tool a name of “SimFix++” because the tool is developed based on the SimFix tool. 
+We give our tool a name of “SimFix++” because the tool is developed based on the SimFix tool. The original tool please refer here: https://github.com/xgdsmileboy/SimFix
 
 We designed an automatic bug fixing tool that takes a different approach to utilize the existing patch. Previously, SimFix uses the existing patches by applying those patches to reduce the search space of others produced from similar code. This is beneficial that common bug fixing modification behavior will be prioritized and could prevent the unlikely fix. However, only the fixed patch codes are used to determine if the modification is applicable and any relationship between the patch’s buggy code and current buggy code is not captured.   
 
