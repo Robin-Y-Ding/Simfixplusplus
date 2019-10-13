@@ -1,15 +1,32 @@
 # Simfixplusplus
-by Robin Ding and Joe Huang
+by Robin Ding (yd2447@columbia.edu) and Joe Huang (jch2220@columbia.edu)
 
-This is a course project for the excellent research-based course, COMS6156 Topics in Software Engineering, given by Prof. Gail Kaiser in Columbia.
+This is a course project for the excellent research-based course, COMS6156 Topics in Software Engineering, given by Prof. Gail Kaiser in Columbia University. This project is done under the supervision of Prof. Baishakhi Ray and Prof. Gail Kaiser, and we appreciate the advise and help from Saikat Chakraborty.
 
 ![Simfix++ Diagram](https://github.com/Robin-Y-Ding/Simfixplusplus/blob/master/simfixpp_diagram.png)
 
-We give our tool a name of “SimFix++” because the tool is developed based on the SimFix tool. The original tool please refer here: https://github.com/xgdsmileboy/SimFix
+We give our tool a name of “SimFix++” because the tool is developed based on the SimFix tool. The original tool please refer here: https://github.com/xgdsmileboy/SimFix. This project is just for research and fun, and we thank SimFix team for their significant contribution to automated program repair field.
 
-We designed an automatic bug fixing tool that takes a different approach to utilize the existing patch. Previously, SimFix uses the existing patches by applying those patches to reduce the search space of others produced from similar code. This is beneficial that common bug fixing modification behavior will be prioritized and could prevent the unlikely fix. However, only the fixed patch codes are used to determine if the modification is applicable and any relationship between the patch’s buggy code and current buggy code is not captured.   
+## Description
+We expanded the functionality of SimFix by taking the commit history of current project into consideration. Originally, SimFix uses exsiting patches offline to capture the most frequent bug-fixing patterns and use these patterns to shrink the search space when they search for similar code snippets in current codebase. Rather than focusing on similar "code snippets" in current repository, we directly search for the similar "bug" code in the project's commit history, and we use the patches of this similar bug as guidance to fix the real bug.
 
-To address this issue, we want to take an alternative approach and use the existing patch differently. Instead of finding the modifications in patches, we will compare the current buggy code with the patch buggy code. For every patch buggy code, we will calculate a similarity score with the current buggy code. Finally, for top k similar patch buggy code, we will utilize its patch to fix the current buggy code.
+Specifically, our work flow is as follows:
+1. Calculating the similarity (Structure similarity and Edit Distance) between current buggy code and the buggy code in commit history of the same project.
+2. Pick the top-k similar bugs from the commit history and extract their corresponding patches as candidates.
+3. Following the design of original SimFix, we slightly modify the candidates (e.g. variable mapping) to make them fit into the current buggy context.
+4. Generate candidate patches and validate them.
+
+## Results
+We design and implement our new features as additional functionality of original SimFix, which means the project SimFix++ maintains all the power inherited from SimFix.
+
+In addition, we extended the power to FOUR new bugs in Defects4J dataset. New means SimFix cannot fix these bugs as stated in the ISSTA'18 paper.
+
+Additional fixes (4):
+
+* chart: 8
+* closure: 92, 93
+* lang: 26
+
 
 ## Setup
 This section includes the basic setup to run Simfix++. More details can be found in the link provided.
