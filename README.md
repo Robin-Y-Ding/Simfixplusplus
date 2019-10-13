@@ -1,5 +1,6 @@
 # Simfixplusplus
 by Robin Ding and Joe Huang
+
 This is a course project for the excellent research-based course, COMS6156 Topics in Software Engineering, given by Prof. Gail Kaiser in Columbia.
 
 ![Simfix++ Diagram](https://github.com/Robin-Y-Ding/Simfixplusplus/blob/master/simfixpp_diagram.png)
