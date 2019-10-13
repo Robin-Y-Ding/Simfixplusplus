@@ -3,9 +3,10 @@ by Robin Ding (yd2447@columbia.edu) and Joe Huang (jch2220@columbia.edu)
 
 This is a course project for the excellent research-based course, COMS6156 Topics in Software Engineering, given by Prof. Gail Kaiser in Columbia University. This project is done under the supervision of Prof. Baishakhi Ray and Prof. Gail Kaiser, and we appreciate the advise and help from Saikat Chakraborty.
 
+We give our tool a name of “SimFix++” because the tool is developed based on the SimFix tool. The original tool please refer here: https://github.com/xgdsmileboy/SimFix. This project is just for research and fun, and we thank SimFix team for their significant contribution to automated program repair field.
+
 ![Simfix++ Diagram](https://github.com/Robin-Y-Ding/Simfixplusplus/blob/master/simfixpp_diagram.png)
 
-We give our tool a name of “SimFix++” because the tool is developed based on the SimFix tool. The original tool please refer here: https://github.com/xgdsmileboy/SimFix. This project is just for research and fun, and we thank SimFix team for their significant contribution to automated program repair field.
 
 ## Description
 We expanded the functionality of SimFix by taking the commit history of current project into consideration. Originally, SimFix uses exsiting patches offline to capture the most frequent bug-fixing patterns and use these patterns to shrink the search space when they search for similar code snippets in current codebase. Rather than focusing on similar "code snippets" in current repository, we directly search for the similar "bug" code in the project's commit history, and we use the patches of this similar bug as guidance to fix the real bug.
