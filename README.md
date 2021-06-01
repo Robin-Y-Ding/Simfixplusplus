@@ -1,5 +1,5 @@
 # Simfixplusplus
-by Robin Ding (yd2447@columbia.edu) and Joe Huang (jch2220@columbia.edu)
+by Robin Ding and Joe Huang
 
 This is a course project for the excellent research-based course, COMS6156 Topics in Software Engineering, given by [Prof. Gail Kaiser](http://www.cs.columbia.edu/~kaiser/) at Columbia University. This project is done under the supervision of [Prof. Gail Kaiser](http://www.cs.columbia.edu/~kaiser/) and [Prof. Baishakhi Ray](http://rayb.info/), and we appreciate the advise and help from [Saikat Chakraborty](https://saikatc.info/).
 
